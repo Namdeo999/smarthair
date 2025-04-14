@@ -2,7 +2,7 @@
 
     <div class="header-inner py-10 rpy-0 d-lg-flex align-items-center">
         <div class="logo-outer">
-            <div class="logo"><a href="index.php"><img src="assets/images/logos/logo.png" alt="Logo"
+            <div class="logo"><a href="index.php"><img src="assets/images/logos/logo.png" alt="Logo" width="167" height="54"
                         title="Logo"></a></div>
         </div>
 
@@ -76,7 +76,7 @@
         <!-- Menu Button -->
         <div class="menu-button d-none d-lg-block">
             <a href="contact.php" class="theme-btn">appointment <i
-                    class="far fa-long-arrow-right"></i></a>
+                    class="fa-solid fa-arrow-right"></i></a>
         </div>
     </div>
 </div>

@@ -27,12 +27,7 @@
 
                 <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
-                        <li class="dropdown"><a href="#">Home</a>
-                            <ul>
-                                <li><a href="index.php">Home One</a></li>
-                                <li><a href="index2.php">Home Two</a></li>
-                                <li><a href="index3.php">Home Three</a></li>
-                            </ul>
+                        <li class="dropdown"><a href="index.php">Home</a>
                         </li>
                         <li class="dropdown"><a href="#">Services</a>
                             <ul>
@@ -46,8 +41,8 @@
                                 <li><a href="portfolio-details.php">Portfolio Details</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#">pages</a>
-                            <ul>
+                        <li class="dropdown"><a href="about.php">about Us</a>
+                            {{-- <ul>
                                 <li class="dropdown"><a href="#">Shop</a>
                                     <ul>
                                         <li><a href="shop.php">Shop</a></li>
@@ -57,7 +52,7 @@
                                 <li><a href="about.php">about us</a></li>
                                 <li><a href="pricing.php">Pricing</a></li>
                                 <li><a href="offers.php">Our Offers</a></li>
-                            </ul>
+                            </ul> --}}
                         </li>
                         <li class="dropdown"><a href="#">blog</a>
                             <ul>
@@ -75,8 +70,8 @@
 
         <!-- Menu Button -->
         <div class="menu-button d-none d-lg-block">
-            <a href="contact.php" class="theme-btn">appointment <i
-                    class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.php" class="theme-btn">appointment 
+                <i class="bi bi-arrow-right"></i></a>
         </div>
     </div>
 </div>

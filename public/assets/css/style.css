@@ -250,6 +250,60 @@ input[type=checkbox], input[type=radio] {
 /*******************************************************/
 /*****************  02. Common Classes *****************/
 /*******************************************************/
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+  position: relative;
+  margin-bottom: 45px;
+  padding: 120px 0 70px 0;
+  text-align: center;
+  background:#707793;;
+}
+
+.page-header h2 {
+  position: relative;
+  color: #1d2434;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.page-header a {
+  position: relative;
+  padding: 0 12px;
+  font-size: 22px;
+  color: #1d2434;
+}
+
+.page-header a:hover {
+  color: #ffffff;
+}
+
+.page-header a::after {
+  position: absolute;
+  content: "/";
+  width: 8px;
+  height: 8px;
+  top: -2px;
+  right: -7px;
+  text-align: center;
+  color: #1d2434;
+}
+
+.page-header a:last-child::after {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .page-header h2 {
+      font-size: 35px;
+  }
+  
+  .page-header a {
+      font-size: 18px;
+  }
+}
+
 .page-wrapper {
   position: relative;
   z-index: 9;

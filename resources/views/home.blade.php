@@ -2,7 +2,6 @@
 @section('page_title', 'Home')
 
 @section('content')
-
     <!-- Hero Section Start -->
     <section class="hero-section py-250" style="background-image: url(assets/images/hero/hero-bg.jpg);">
         <div class="container">

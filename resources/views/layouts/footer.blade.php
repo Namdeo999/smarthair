@@ -38,7 +38,7 @@
         <div class="col-xl-4 col-md-6">
             <div class="footer-widget news-widget wow fadeInUp delay-0-6s">
                 <h5 class="footer-title">recent news</h5>
-                <ul>
+                {{-- <ul>
                     <li>
                         <div class="image">
                             <img src="assets/images/widgets/news-widget1.jpg" alt="Newx">
@@ -63,7 +63,7 @@
                             </span>
                         </div>
                     </li>
-                </ul>
+                </ul> --}}
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
@@ -72,15 +72,15 @@
                 <ul>
                     <li>
                         <i class="far fa-map-marker-alt"></i>
-                        <span>454 main Street 72 Main Drive, Calibry, Florida 20304</span>
+                        <span>E-4 /151 FLAT NO. 4 HARERAM COMPLEX, 10 No. market, E-4, Arera Colony, Bhopal, Madhya Pradesh 462016</span>
                     </li>
                     <li>
                         <i class="far fa-phone"></i>
-                        <a href="calto:+012(345)6789">+012 (345) 67 89</a>
+                        <a href="calto:+012(345)6789">+91 8889666653 9009255060  </a>
                     </li>
                     <li>
                         <i class="far fa-clock"></i>
-                        <span>Sun - Friday, 08 am - 09 pm</span>
+                        <span>Mon - Sun, 10:00 am – 08:00 pm</span>
                     </li>
                     <li>
                         <i class="far fa-envelope"></i>
@@ -91,6 +91,6 @@
         </div>
     </div>
     <div class="copyright-area bg-black-two border-0 text-center p-15 mt-15">
-        <p>Copyright © 2025 <a href="index.php">Qutter</a>. All Rights Reserved.</p>
+        <p>Copyright © 2025 <a href="index.php">Samrth</a>. All Rights Reserved.</p>
     </div>
 </div>

@@ -4,8 +4,8 @@
             <div class="top-left">
                 <ul>
                     <li><i class="far fa-phone"></i> <b>Call Us : </b> <a
-                            href="callto:+012(345)67895">012 (345) 67 895</a></li>
-                    <li><i class="far fa-clock"></i> <b>Opening Hour : </b> Sunday - Friday, 08 am - 09
+                            href="callto:+012(345)67895">8889666653 9009255060                        </a></li>
+                    <li><i class="far fa-clock"></i> <b>Opening Hour : </b> Monday - Sunday, 10:00 am – 08:00
                         pm</li>
                 </ul>
             </div>

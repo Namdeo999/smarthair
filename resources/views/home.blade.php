@@ -2,7 +2,6 @@
 @section('page_title', 'Home')
 
 @section('content')
-    
     <!-- Hero Section Start -->
     <section class="hero-section py-250" style="background-image: url(assets/images/hero/hero-bg.jpg);">
         <div class="container">
@@ -10,15 +9,15 @@
                 <div class="col-xl-7 col-lg-8">
                     <div class="hero-content py-10 rpt-0 text-white rmb-70">
                         <h1 class="wow fadeInUp delay-0-2s">Barbers & Hair Cutting</h1>
-                        <p class="wow fadeInUp delay-0-4s">Sit amet consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua suspendisse ultrices gravida</p>
+                        <p class="wow fadeInUp delay-0-4s">Experience the future of hair & beauty. With our easy online
+                            booking system, you’re just a few clicks away from your next flawless look.</p>
                         <a href="services.php" class="theme-btn wow fadeInUp delay-0-6s">explore our services <i
                                 class="far fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="hero-video text-lg-right wow zoomIn delay-0-6s">
-                        <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i
+                        <a href="{{ asset('assets/images/video.mp4') }}" class="mfp-iframe video-play"><i
                                 class="fas fa-play"></i></a>
                     </div>
                 </div>
@@ -42,8 +41,8 @@
                                 <div class="col-lg-8">
                                     <div class="section-title mb-35">
                                         <h2 class="title">What We Do</h2>
-                                        <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt
-                                            labore dolore magna aliqua suspendisse</p>
+                                        <p>We combine expert stylists with modern technology to give you a salon experience
+                                            like never before.</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +54,7 @@
                                         </div>
                                         <div class="content">
                                             <h4><a href="service-details.php">Hair Cutting</a></h4>
-                                            <p>Quis autem vel eumu reres ender quiea voluptate</p>
+                                            <p>Expert haircuts styled to match your personality and look.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -66,7 +65,7 @@
                                         </div>
                                         <div class="content">
                                             <h4><a href="service-details.php">Shaving Style</a></h4>
-                                            <p>Quis autem vel eumu reres ender quiea voluptate</p>
+                                            <p>Clean shaves and trendy beard styles, done to perfection.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -76,8 +75,8 @@
                                             <i class="flaticon-beauty-treatment"></i>
                                         </div>
                                         <div class="content">
-                                            <h4><a href="service-details.php">Spa & GYM</a></h4>
-                                            <p>Quis autem vel eumu reres ender quiea voluptate</p>
+                                            <h4><a href="service-details.php">Hair Patch</a></h4>
+                                            <p>Natural-looking, non-surgical hair patch solutions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +87,7 @@
                                         </div>
                                         <div class="content">
                                             <h4><a href="service-details.php">Body Treatments</a></h4>
-                                            <p>Quis autem vel eumu reres ender quiea voluptate</p>
+                                            <p>Skin and body treatments that refresh, and leave you feeling brand new.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -105,12 +104,12 @@
         <div class="row">
             <div class="col-xl-3 col-sm-6">
                 <div class="about-left-image wow fadeInUp delay-0-2s">
-                    <img src="assets/images/about/about-left.jpg" alt="About Left">
+                    <img src="assets/images/about/about-left.jpg" alt="About Left" >
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 order-xl-2">
                 <div class="about-right-image wow fadeInUp delay-0-6s">
-                    <img src="assets/images/about/about-right.jpg" alt="About Right">
+                    <img src="assets/images/about/about-right.jpg" alt="About Right" height="490px">
                 </div>
             </div>
             <div class="col-xl-6 align-self-center">
@@ -122,19 +121,20 @@
                             </div>
                         </div>
                     </div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                        voluptatem sequi nesciunt.</p>
-                    <div class="our-author mt-20">
+                    <p>At SmartHair Salon, we blend style, skill, and smart technology to give you an unmatched grooming
+                        experience. Our team of expert barbers and stylists are dedicated to helping you look and feel your
+                        best. Whether it’s a classic cut, a bold new style, or a personalized grooming session — we make it
+                        all about you.
+
+                        Step into a salon where precision meets passion, and walk out with confidence.</p>
+                    {{-- <div class="our-author mt-20">
                         <img src="assets/images/about/author.jpg" alt="Authro">
                         <div class="content">
                             <h4>Randall J. Goodman</h4>
                             <img src="assets/images/about/signature.png" alt="Signature">
                         </div>
                     </div>
-                    <img class="about-bg-shape" src="assets/images/about/about-bg-shape.png" alt="BG Shape">
+                    <img class="about-bg-shape" src="assets/images/about/about-bg-shape.png" alt="BG Shape"> --}}
                 </div>
             </div>
         </div>
@@ -165,8 +165,9 @@
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title text-center mb-55">
                         <h2 class="title">Service we provide</h2>
-                        <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna
-                            aliqua suspendisse</p>
+                        <p>Discover a full range of grooming and beauty services designed to meet your style and self-care
+                            needs. From haircuts to hair replacement, we ensure quality, comfort, and confidence in every
+                            service.</p>
                     </div>
                 </div>
             </div>
@@ -178,10 +179,8 @@
                         </div>
                         <div class="content">
                             <h3><a href="service-details.php">Hair Cutting Style</a></h3>
-                            <p>Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-                            <a href="service-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <p>Trendy and classic haircuts tailored to suit your unique style and face shape.</p>
+                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -192,10 +191,8 @@
                         </div>
                         <div class="content">
                             <h3><a href="service-details.php">Hair Washing</a></h3>
-                            <p>Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-                            <a href="service-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <p>Deep cleansing and scalp-refreshing washes for a healthy, shiny look.</p>
+                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -206,10 +203,8 @@
                         </div>
                         <div class="content">
                             <h3><a href="service-details.php">Body Treatments</a></h3>
-                            <p>Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-                            <a href="service-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <p>Relaxing body care therapies to nourish, refresh, and rejuvenate your skin.</p>
+                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -219,11 +214,9 @@
                             <i class="flaticon-treatment"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Beauty & Spa</a></h3>
-                            <p>Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-                            <a href="service-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <h3><a href="service-details.php">Hair Patch</a></h3>
+                            <p>Natural-looking, non-surgical hair patch solutions for fuller hair and confidence.</p>
+                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -234,10 +227,8 @@
                         </div>
                         <div class="content">
                             <h3><a href="service-details.php">Stylist Shaving</a></h3>
-                            <p>Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-                            <a href="service-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <p>Smooth shaves and sharp beard styles crafted with precision and care.</p>
+                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -248,10 +239,8 @@
                         </div>
                         <div class="content">
                             <h3><a href="service-details.php">Multi Hair Colors</a></h3>
-                            <p>Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-                            <a href="service-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <p>Vibrant hair coloring options to match your vibe and express your style.</p>
+                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -265,14 +254,14 @@
     <!-- Services Area End -->
     <!-- Pricing Plan Area Start -->
     <section class="pricing-plan-area bgs-cover pt-120 rpt-90 pb-130 rpb-100"
-        style="background-image: url(assets/images/background/pricing-plan-bg.jpg);">
+        style="background-image: url(assets/images/background/pricing-plan-bg1.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title text-white text-center mb-55">
                         <h2 class="title">awesome pricing plan</h2>
-                        <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna
-                            aliqua suspendisse</p>
+                        <p>Get premium grooming and styling services at prices that suit your budget, we’ve got a plan that
+                            fits your style and wallet.</p>
                     </div>
                 </div>
             </div>
@@ -327,7 +316,7 @@
                                         <h5>Hair Cutting & Fitting</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$89</span>
+                                    <span class="price">₹199</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -339,7 +328,7 @@
                                         <h5>Shaving & Facial</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$45</span>
+                                    <span class="price">₹150</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -351,7 +340,7 @@
                                         <h5>Hair Color & Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$35</span>
+                                    <span class="price">₹180</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -363,7 +352,7 @@
                                         <h5>Body Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$56</span>
+                                    <span class="price">₹250</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -375,7 +364,7 @@
                                         <h5>Beauty & Spa</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$27</span>
+                                    <span class="price">₹2700</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -387,7 +376,7 @@
                                         <h5>Facial & Face Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$63</span>
+                                    <span class="price">₹630</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -399,7 +388,7 @@
                                         <h5>Backbone Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$43</span>
+                                    <span class="price">₹200</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -411,7 +400,7 @@
                                         <h5>Meditation & Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$74</span>
+                                    <span class="price">₹740</span>
                                 </div>
                             </div>
                         </div>
@@ -427,7 +416,7 @@
                                         <h5>Facial & Face Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$63</span>
+                                    <span class="price">₹400</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -439,7 +428,7 @@
                                         <h5>Backbone Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$43</span>
+                                    <span class="price">₹430</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -451,7 +440,7 @@
                                         <h5>Hair Cutting & Fitting</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$89</span>
+                                    <span class="price">₹89</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -463,7 +452,7 @@
                                         <h5>Shaving & Facial</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$45</span>
+                                    <span class="price">₹45</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -475,7 +464,7 @@
                                         <h5>Hair Color & Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$35</span>
+                                    <span class="price">₹35</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -487,7 +476,7 @@
                                         <h5>Body Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$56</span>
+                                    <span class="price">₹56</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -499,7 +488,7 @@
                                         <h5>Beauty & Spa</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$27</span>
+                                    <span class="price">₹27</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -511,7 +500,7 @@
                                         <h5>Meditation & Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$74</span>
+                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
@@ -527,7 +516,7 @@
                                         <h5>Body Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$56</span>
+                                    <span class="price">₹56</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -539,7 +528,7 @@
                                         <h5>Beauty & Spa</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$27</span>
+                                    <span class="price">₹27</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -551,7 +540,7 @@
                                         <h5>Facial & Face Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$63</span>
+                                    <span class="price">₹63</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -563,7 +552,7 @@
                                         <h5>Hair Cutting & Fitting</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$89</span>
+                                    <span class="price">₹89</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -575,7 +564,7 @@
                                         <h5>Shaving & Facial</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$45</span>
+                                    <span class="price">₹45</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -587,7 +576,7 @@
                                         <h5>Hair Color & Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$35</span>
+                                    <span class="price">₹35</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -599,7 +588,7 @@
                                         <h5>Backbone Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$43</span>
+                                    <span class="price">₹43</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -611,7 +600,7 @@
                                         <h5>Meditation & Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$74</span>
+                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
@@ -627,7 +616,7 @@
                                         <h5>Shaving & Facial</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$45</span>
+                                    <span class="price">₹45</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -639,7 +628,7 @@
                                         <h5>Hair Color & Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$35</span>
+                                    <span class="price">₹35</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -651,7 +640,7 @@
                                         <h5>Hair Cutting & Fitting</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$89</span>
+                                    <span class="price">₹89</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -663,7 +652,7 @@
                                         <h5>Body Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$56</span>
+                                    <span class="price">₹56</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -675,7 +664,7 @@
                                         <h5>Beauty & Spa</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$27</span>
+                                    <span class="price">₹27</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -687,7 +676,7 @@
                                         <h5>Facial & Face Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$63</span>
+                                    <span class="price">₹63</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -699,7 +688,7 @@
                                         <h5>Backbone Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$43</span>
+                                    <span class="price">₹43</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -711,7 +700,7 @@
                                         <h5>Meditation & Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$74</span>
+                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
@@ -727,7 +716,7 @@
                                         <h5>Hair Color & Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$35</span>
+                                    <span class="price">₹35</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -739,7 +728,7 @@
                                         <h5>Body Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$56</span>
+                                    <span class="price">₹56</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -751,7 +740,7 @@
                                         <h5>Beauty & Spa</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$27</span>
+                                    <span class="price">₹27</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -763,7 +752,7 @@
                                         <h5>Facial & Face Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$63</span>
+                                    <span class="price">₹63</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -775,7 +764,7 @@
                                         <h5>Hair Cutting & Fitting</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$89</span>
+                                    <span class="price">₹89</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -787,7 +776,7 @@
                                         <h5>Shaving & Facial</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$45</span>
+                                    <span class="price">₹45</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -799,7 +788,7 @@
                                         <h5>Backbone Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$43</span>
+                                    <span class="price">₹43</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -811,7 +800,7 @@
                                         <h5>Meditation & Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$74</span>
+                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
@@ -827,7 +816,7 @@
                                         <h5>Facial & Face Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$63</span>
+                                    <span class="price">₹63</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -839,7 +828,7 @@
                                         <h5>Backbone Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$43</span>
+                                    <span class="price">₹43</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -851,7 +840,7 @@
                                         <h5>Meditation & Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$74</span>
+                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -863,7 +852,7 @@
                                         <h5>Hair Cutting & Fitting</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$89</span>
+                                    <span class="price">₹89</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -875,7 +864,7 @@
                                         <h5>Shaving & Facial</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$45</span>
+                                    <span class="price">₹45</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -887,7 +876,7 @@
                                         <h5>Hair Color & Wash</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$35</span>
+                                    <span class="price">₹35</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -899,7 +888,7 @@
                                         <h5>Body Massage</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$56</span>
+                                    <span class="price">₹56</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -911,7 +900,7 @@
                                         <h5>Beauty & Spa</h5>
                                         <span>Clean & simple 30-40 minutes</span>
                                     </div>
-                                    <span class="price">$27</span>
+                                    <span class="price">₹27</span>
                                 </div>
                             </div>
                         </div>
@@ -928,8 +917,7 @@
                 <div class="col-xl-5 col-lg-6">
                     <div class="section-title mb-15 wow fadeInLeft delay-0-2s">
                         <h2 class="title">Latest photo gallery</h2>
-                        <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna
-                            aliqua suspendisse</p>
+                        <p>Fresh looks. Real clients. Authentic style</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -998,8 +986,8 @@
                 </div>
             </div>
             <div class="contact-form-wrap">
-                <div class="image wow fadeInUp delay-0-2s"
-                    style="background-image: url(assets/images/contact/left.jpg);"></div>
+                <div class="image wow fadeInUp delay-0-2s" style="background-image: url(assets/images/contact/left.jpg);">
+                </div>
                 <form action="#" class="bg-yellow bgs-cover wow fadeInUp delay-0-4s"
                     style="background-image: url(assets/images/contact/contact-bg.png);">
                     <div class="row justify-content-center mb-35 text-white text-center">
@@ -1007,8 +995,7 @@
                             <div class="section-title text-white">
                                 <h2 class="title">Make appointment</h2>
                             </div>
-                            <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore
-                                magna aliqua suspendisse</p>
+                            <p>Simple. Quick. Hassle-free bookings at your convenience.</p>
                         </div>
                     </div>
                     <div class="row small-gap">
@@ -1044,14 +1031,13 @@
                         <div class="col-lg-12">
                             <div class="form-group">
                                 <label for="date-time"><i class="far fa-calendar-alt"></i></label>
-                                <input type="text" id="date-time" name="date-time" class="form-control" value=""
-                                    placeholder="Appointment Date & Time">
+                                <input type="text" id="date-time" name="date-time" class="form-control"
+                                    value="" placeholder="Appointment Date & Time">
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <textarea name="message" id="message" class="form-control" rows="4"
-                                    placeholder="Write Message" required></textarea>
+                                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Write Message" required></textarea>
                             </div>
                         </div>
                         <div class="col-lg-12">
@@ -1079,8 +1065,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title text-center mb-50">
                         <h2 class="title">Meet our specialist</h2>
-                        <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna
-                            aliqua suspendisse</p>
+                        <p>Because true style starts with the right professional.</p>
                     </div>
                 </div>
             </div>
@@ -1175,8 +1160,7 @@
                         style="background-image: url(assets/images/background/video-cta-bg.png);">
                         <div class="section-title mb-15">
                             <h2>Come &<br> get Freshness</h2>
-                            <p>Sit amet consectetur adipiscing do eiusmod tempor incididunt labore dolore magna
-                                aliqua suspen</p>
+                            <p>Because true freshness isn’t just how you look — it’s how you feel inside and out.</p>
                         </div>
                         <a href="contact.php" class="theme-btn btn-border">contact with us <i
                                 class="far fa-long-arrow-right"></i></a>
@@ -1200,8 +1184,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title text-center mb-50">
                         <h2 class="title">What our clients say</h2>
-                        <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna
-                            aliqua suspendisse</p>
+                        <p>At Smart Hair Beauty, we believe in creating an experience that goes beyond just great hair, What clients might say after having a great experience at your salon.</p>
                     </div>
                 </div>
             </div>
@@ -1211,8 +1194,8 @@
                         <img src="assets/images/testimonials/testimonial1.jpg" alt="Author">
                     </div>
                     <div class="description">
-                        <p>Quis autem vel eum iure repreh enderit quin voluptate velit esse quam nihil molestiae
-                            consequa tur veillumqus dolore fugiat quo voluptas pariatuLorem psum</p>
+                        <p>I had an amazing experience at Smart Hair Beauty! From the moment I walked in, I felt welcomed
+                            and relaxed. </p>
                         <h4>Donald A. Guthrie</h4>
                         <span class="designation">Senior Manager</span>
                         <div class="ratting">
@@ -1229,8 +1212,7 @@
                         <img src="assets/images/testimonials/testimonial2.jpg" alt="Author">
                     </div>
                     <div class="description">
-                        <p>Sed ut perspiciatis unde omnis natus error sit voluac cusantium doloremque laudantium
-                            totame rem aperiam eaque quae abillo inventore veritatis et quase</p>
+                        <p>The service at Smart Hair Beauty is unbeatable. I went in for a deep conditioning treatment and left with silky, smooth hair. </p>
                         <h4>Justin D. Thompson</h4>
                         <span class="designation">Senior Manager</span>
                         <div class="ratting">
@@ -1287,7 +1269,7 @@
     </section>
     <!-- Testimonial Area End -->
     <!-- Client Logo Area Start -->
-    <section class="client-logo-area rel z-1 pb-130 rpb-100">
+    {{-- <section class="client-logo-area rel z-1 pb-130 rpb-100">
         <div class="container">
             <div class="client-logo-inner">
                 <div class="row justify-content-center">
@@ -1340,10 +1322,10 @@
             </div>
         </div>
         <img class="client-logo-bg" src="assets/images/background/client-logo-bg.png" alt="Background">
-    </section>
+    </section> --}}
     <!-- Client Logo Area End -->
     <!-- News Area Start -->
-    <section class="news-area rel z-2 pt-120 rpt-90 pb-100 rpb-70">
+    {{-- <section class="news-area rel z-2 pt-120 rpt-90 pb-100 rpb-70">
         <div class="container">
             <div class="row justify-content-between align-items-end mb-10">
                 <div class="col-xl-5 col-lg-6">
@@ -1465,7 +1447,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- News Area End -->
 
 @endsection

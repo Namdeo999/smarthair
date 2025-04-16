@@ -1,7 +1,7 @@
 <div class="container">
     <div class="footer-logo-newsletter mb-70">
         <div class="footer-logo wow fadeInLeft delay-0-2s">
-            <a href="index.php"><img src="assets/images/logos/logo.png" alt="Logo"></a>
+            <a href="{{url('/home')  }}"><img src="assets/images/logos/logo.png" alt="Logo"></a>
         </div>
         <div class="footer-newsletter wow fadeInRight delay-0-2s">
             <form action="#">
@@ -76,7 +76,7 @@
                     </li>
                     <li>
                         <i class="far fa-phone"></i>
-                        <a href="calto:+012(345)6789">+91 8889666653 9009255060  </a>
+                        <a href="calto:+918889666653">+91 8889666653 9009255060  </a>
                     </li>
                     <li>
                         <i class="far fa-clock"></i>

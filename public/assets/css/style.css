@@ -6841,3 +6841,10 @@ h1, h2, h3, h4, h5, h6, .section-title .sub-title, .price-tab .nav-link span, .t
   border-top-color: rgba(255, 255, 255, 0.1); }
   .text-white .copyright-area p {
     color: #707070; }
+
+
+    .gold-check::before {
+      content: "✔";
+      color: #DFBD69; /* Gold */
+      margin-right: 8px;
+    }

@@ -10,7 +10,7 @@
                 <h1 class="page-title wow fadeInRight delay-0-2s">About</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center wow fadeInLeft delay-0-2s">
-                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{ url('/home') }}">Home</a></li>
                         <li class="breadcrumb-item active">About</li>
                     </ol>
                 </nav>
@@ -32,7 +32,7 @@
                 <div class="col-xl-5 col-lg-6 align-self-center">
                     <div class="about-content-two wow fadeInRight delay-0-2s">
                         <div class="logo mb-40">
-                            <img src="assets/images/about/logo.png" alt="Logo">
+                            <img src="assets/images/logos/logo.png" alt="Logo" width="100px" style="object-fit: cover; background-color: black;">
                         </div>
                         <div class="section-title mb-25">
                             <h2 class="title">Best barbers & hair cutting salon</h2>
@@ -259,63 +259,5 @@
         </div>
     </section>
     <!-- About End -->
-
-
-    <!-- Team Start -->
-    {{-- <div class="team">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Our Barber Team</p>
-                <h2>Meet Our Hair Cut Expert Barber</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-1.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Adam Phillips</h2>
-                            <p>Master Barber</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-2.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dylan Adams</h2>
-                            <p>Hair Expert</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-3.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Gloria Edwards</h2>
-                            <p>Beard Expert</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-4.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Josh Dunn</h2>
-                            <p>Color Expert</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- Team End -->
 
 @endsection

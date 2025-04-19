@@ -93,7 +93,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   line-height: 1.13;
-  font-size: 110px; }
+  font-size: 90px; }
 
 h2 {
   line-height: 1.25;
@@ -6842,9 +6842,39 @@ h1, h2, h3, h4, h5, h6, .section-title .sub-title, .price-tab .nav-link span, .t
   .text-white .copyright-area p {
     color: #707070; }
 
-
-    .gold-check::before {
+/*--------------------------------------------------------------*/
+.gold-check::before {
       content: "✔";
       color: #DFBD69; /* Gold */
       margin-right: 8px;
     }
+
+    .wig-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+      transition: all 0.3s ease-in-out;
+  }
+  .wig-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  }
+  .wig-card .image img {
+      width: 100%;
+      height: auto;
+  }
+  .wig-card .content {
+      padding: 20px;
+  }
+  .wig-card h5 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+  .wig-description {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+  }

@@ -8,9 +8,9 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-8">
                     <div class="hero-content py-10 rpt-0 text-white rmb-70">
-                        <h1 class="wow fadeInUp delay-0-2s">Barbers & Hair Cutting</h1>
-                        <p class="wow fadeInUp delay-0-4s">Experience the future of hair & beauty. With our easy online
-                            booking system, you’re just a few clicks away from your next flawless look.</p>
+                        <h1 class="wow fadeInUp delay-0-2s">Hair Patching & replacement</h1>
+                        <p class="wow fadeInUp delay-0-4s">Restore your confidence with natural-looking hair patch solutions
+                            – trusted by clients across Bhopal.</p>
                         <a href="{{ url('/service') }}" class="theme-btn wow fadeInUp delay-0-6s">explore our services <i
                                 class="far fa-long-arrow-right"></i></a>
                     </div>
@@ -38,11 +38,13 @@
                     <div class="col-xl-8 align-self-center">
                         <div class="what-we-do-content wow fadeInRight delay-0-2s">
                             <div class="row">
-                                <div class="col-lg-8">
+                                <div class="col-lg-11">
                                     <div class="section-title mb-35">
                                         <h2 class="title">What We Do</h2>
-                                        <p>We combine expert stylists with modern technology to give you a salon experience
-                                            like never before.</p>
+                                        <p>At Smart Hair Beauty, we specialize in non-surgical hair patching, advanced hair
+                                            replacement systems, and effective solutions for hair loss. Our mission is to
+                                            restore not just hair, but confidence—using natural-looking, customized
+                                            treatments trusted by clients across Bhopal.</p>
                                     </div>
                                 </div>
                             </div>
@@ -50,48 +52,50 @@
                                 <div class="col-md-6">
                                     <div class="feature-item">
                                         <div class="icon">
-                                            <i class="flaticon-scissors"></i>
+                                            <i class="flaticon-hair-patch"></i>
                                         </div>
                                         <div class="content">
-                                            <h4><a href="service-details.php">Hair Cutting</a></h4>
-                                            <p>Expert haircuts styled to match your personality and look.</p>
+                                            <h4><a href="service-details.php">Hair Patching</a></h4>
+                                            <p>Expert non-surgical hair patch solutions for a natural, full-head look.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="feature-item">
                                         <div class="icon">
-                                            <i class="flaticon-straight-razor"></i>
+                                            <i class="flaticon-hair-replacement"></i>
                                         </div>
                                         <div class="content">
-                                            <h4><a href="service-details.php">Shaving Style</a></h4>
-                                            <p>Clean shaves and trendy beard styles, done to perfection.</p>
+                                            <h4><a href="service-details.php">Hair Replacement</a></h4>
+                                            <p>Advanced, customized hair replacement systems tailored to your needs.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="feature-item">
                                         <div class="icon">
-                                            <i class="flaticon-beauty-treatment"></i>
+                                            <i class="flaticon-natural-hair"></i>
                                         </div>
                                         <div class="content">
-                                            <h4><a href="service-details.php">Hair Patch</a></h4>
-                                            <p>Natural-looking, non-surgical hair patch solutions.</p>
+                                            <h4><a href="service-details.php">Hair Loss Solutions</a></h4>
+                                            <p>Personalized treatments to prevent hair loss and restore natural hair.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="feature-item">
                                         <div class="icon">
-                                            <i class="flaticon-hot-stones"></i>
+                                            <i class="flaticon-consultation"></i>
                                         </div>
                                         <div class="content">
-                                            <h4><a href="service-details.php">Body Treatments</a></h4>
-                                            <p>Skin and body treatments that refresh, and leave you feeling brand new.</p>
+                                            <h4><a href="service-details.php">Free Consultation</a></h4>
+                                            <p>Get expert advice on the best hair restoration solution for you.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -104,7 +108,7 @@
         <div class="row">
             <div class="col-xl-3 col-sm-6">
                 <div class="about-left-image wow fadeInUp delay-0-2s">
-                    <img src="assets/images/about/about-left.jpg" alt="About Left" >
+                    <img src="assets/images/about/about-left.jpg" alt="About Left">
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 order-xl-2">
@@ -115,18 +119,18 @@
             <div class="col-xl-6 align-self-center">
                 <div class="about-content rp-15 rpb-90 text-center wow fadeInUp delay-0-4s">
                     <div class="row justify-content-center">
-                        <div class="col-lg-8">
+                        <div class="col-lg-9">
                             <div class="section-title mb-35">
-                                <h2 class="title">we’re Best barbers & hair cutting salon</h2>
+                                <h2 class="title">We’re the Best in Hair Patching & Hair Replacement</h2>
                             </div>
                         </div>
                     </div>
-                    <p>At SmartHair Salon, we blend style, skill, and smart technology to give you an unmatched grooming
-                        experience. Our team of expert barbers and stylists are dedicated to helping you look and feel your
-                        best. Whether it’s a classic cut, a bold new style, or a personalized grooming session — we make it
-                        all about you.
-
-                        Step into a salon where precision meets passion, and walk out with confidence.</p>
+                    <p>At SmartHair Beauty, we combine advanced hair replacement technology with expert care to provide
+                        solutions that restore both your hair and confidence. Our skilled professionals specialize in hair
+                        patching, customized hair wigs, and non-surgical hair loss treatments that cater to your unique
+                        needs. Whether you’re looking to cover thinning spots, restore a full head of hair, or find a
+                        solution for hair loss, we offer personalized services designed just for you. Step into SmartHair
+                        Beauty and leave with a renewed sense of confidence and natural-looking hair.</p>
                     {{-- <div class="our-author mt-20">
                         <img src="assets/images/about/author.jpg" alt="Authro">
                         <div class="content">
@@ -162,12 +166,10 @@
     <section class="services-area rel z-1 pt-120 rpt-90 pb-100 rpb-70">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-6 col-md-8">
+                <div class="col-xl-8 col-lg-8 col-md-8">
                     <div class="section-title text-center mb-55">
                         <h2 class="title">Service we provide</h2>
-                        <p>Discover a full range of grooming and beauty services designed to meet your style and self-care
-                            needs. From haircuts to hair replacement, we ensure quality, comfort, and confidence in every
-                            service.</p>
+                        <p>Explore our extensive range of specialized services tailored to enhance your style and self-care. Whether you’re looking for a haircut, hair replacement, or a complete transformation, we deliver exceptional quality, comfort, and confidence with every treatment.</p>
                     </div>
                 </div>
             </div>
@@ -175,11 +177,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-2s">
                         <div class="icon">
-                            <i class="flaticon-salon"></i>
+                            <i class="flaticon-hair-patch"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Hair Cutting Style</a></h3>
-                            <p>Trendy and classic haircuts tailored to suit your unique style and face shape.</p>
+                            <h3><a href="service-details.php">Hair Patch Solutions</a></h3>
+                            <p>Non-surgical hair patching to restore volume and boost your confidence.</p>
                             <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -187,11 +189,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-4s">
                         <div class="icon">
-                            <i class="flaticon-shampoo"></i>
+                            <i class="flaticon-hair-replacement"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Hair Washing</a></h3>
-                            <p>Deep cleansing and scalp-refreshing washes for a healthy, shiny look.</p>
+                            <h3><a href="service-details.php">Hair Replacement</a></h3>
+                            <p>Advanced hair replacement systems for permanent and natural-looking results.</p>
                             <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -199,11 +201,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-6s">
                         <div class="icon">
-                            <i class="flaticon-hot-stone"></i>
+                            <i class="flaticon-hair-bonding"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Body Treatments</a></h3>
-                            <p>Relaxing body care therapies to nourish, refresh, and rejuvenate your skin.</p>
+                            <h3><a href="service-details.php">Hair Bonding Treatment</a></h3>
+                            <p>Expert bonding techniques to create a seamless, natural-looking hairline.</p>
                             <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -211,11 +213,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-2s">
                         <div class="icon">
-                            <i class="flaticon-treatment"></i>
+                            <i class="flaticon-hair-extension"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Hair Patch</a></h3>
-                            <p>Natural-looking, non-surgical hair patch solutions for fuller hair and confidence.</p>
+                            <h3><a href="service-details.php">Hair Extension Services</a></h3>
+                            <p>High-quality hair extensions to add volume, length, and style.</p>
                             <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -223,11 +225,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-4s">
                         <div class="icon">
-                            <i class="flaticon-shaving-razor"></i>
+                            <i class="flaticon-hair-fall"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Stylist Shaving</a></h3>
-                            <p>Smooth shaves and sharp beard styles crafted with precision and care.</p>
+                            <h3><a href="service-details.php">Hair Fall Treatment</a></h3>
+                            <p>Effective treatments designed to reduce hair fall and promote healthy growth.</p>
                             <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -235,16 +237,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-6s">
                         <div class="icon">
-                            <i class="flaticon-hair-dye"></i>
+                            <i class="flaticon-hair-weaving"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="service-details.php">Multi Hair Colors</a></h3>
-                            <p>Vibrant hair coloring options to match your vibe and express your style.</p>
+                            <h3><a href="service-details.php">Hair Weaving</a></h3>
+                            <p>Customized hair weaving techniques for a fuller, more natural look.</p>
                             <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
         <div class="services-shapes">
             <img class="shape-one" src="assets/images/shapes/service-one.png" alt="Shape">
@@ -259,252 +262,191 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title text-white text-center mb-55">
-                        <h2 class="title">awesome pricing plan</h2>
+                        <h2 class="title">Our Products</h2>
                         <p>Get premium grooming and styling services at prices that suit your budget, we’ve got a plan that
                             fits your style and wallet.</p>
                     </div>
                 </div>
             </div>
-            <div class="price-tab-wrap p-40 bg-white">
+            <div class="price-tab-wrap p-40  bg-white">
                 <ul class="nav nav-justified price-tab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#hair">
-                            <i class="flaticon-beauty-salon"></i>
-                            <span>hair solutions</span>
+                            <i class="flaticon-man"></i>
+                            <span>Mens Wigs</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#beauty">
-                            <i class="flaticon-relax"></i>
-                            <span>beauty & spa</span>
+                            <i class="flaticon-woman"></i>
+                            <span>Women Hair Wigs</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#bodyy">
-                            <i class="flaticon-massage"></i>
-                            <span>body treatments</span>
+                            <i class="flaticon-wig"></i>
+                            <span>Lace Hair System</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#washing">
-                            <i class="flaticon-spa"></i>
-                            <span>Fash washing</span>
+                            <i class="flaticon-comb"></i>
+                            <span>Hair Extension</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#meditations">
-                            <i class="flaticon-yoga"></i>
-                            <span>meditations</span>
+                            <i class="flaticon-hair-dye"></i>
+                            <span>Hair Patch Accessories</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#shaving">
-                            <i class="flaticon-razor-blade"></i>
-                            <span>shaving</span>
+                            <i class="flaticon-care"></i>
+                            <span>Chemotherapy Wigs</span>
                         </a>
                     </li>
                 </ul>
-                <div class="tab-content price-tab-content">
+                
+            <br>
+                <div class="tab-content price-tab-content ">
                     <div class="tab-pane fade show active" id="hair">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-2s">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image1.jpg" alt="Price">
+                                        <img src="assets/images/wigs/mens-lace.jpg" alt="Mens Lace Hair Wig">
                                     </div>
                                     <div class="content">
-                                        <h5>Hair Cutting & Fitting</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Mens Lace Hair Wig</h5>
+                                        <p class="wig-description">Our company is a market-leading manufacturer, exporter, and supplier of premium quality Mens Lace Hair Wigs. Crafted from high-grade synthetic hair, our lace wigs provide a natural look and comfortable fit. We source materials from trusted vendors, ensuring that every product meets strict quality standards.</p>
                                     </div>
-                                    <span class="price">₹199</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-4s">
+                                <div class="wig-card wow fadeInUp delay-0-4s">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image2.jpg" alt="Price">
+                                        <img src="assets/images/wigs/stylish-mens.jpg" alt="Stylish Mens Hair Wig">
                                     </div>
                                     <div class="content">
-                                        <h5>Shaving & Facial</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Stylish Mens Hair Wig</h5>
+                                        <p class="wig-description">We specialize in the manufacture, export, and supply of premium-quality Stylish Mens Hair Wigs at the most affordable prices. As a trusted name in the wig industry, we are proud to be one of Bhopal’s leading men’s wig exporters, offering fashionable and natural-looking hair solutions.</p>
                                     </div>
-                                    <span class="price">₹150</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-2s">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image3.jpg" alt="Price">
+                                        <img src="assets/images/wigs/full-gents.jpg" alt="Full Gents Hair Wig">
                                     </div>
                                     <div class="content">
-                                        <h5>Hair Color & Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Full Gents Hair Wig</h5>
+                                        <p class="wig-description">We are a trusted manufacturer, exporter, and supplier of Full Gents Hair Wigs, based in Bhopal, India. Crafted using high-quality synthetic materials, this wig offers a full-cap coverage that comfortably fits the entire head.</p>
                                     </div>
-                                    <span class="price">₹180</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-4s">
+                                <div class="wig-card wow fadeInUp delay-0-4s">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image4.jpg" alt="Price">
+                                        <img src="assets/images/wigs/hair-patch.jpg" alt="Hair Patch Wig">
                                     </div>
                                     <div class="content">
-                                        <h5>Body Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Hair Patch Wig</h5>
+                                        <p class="wig-description">We are proud to be counted among Bhopal, India's leading manufacturers, exporters, and suppliers of premium Hair Patch Wigs. The patch features a rectangular base design that fits naturally and is secured with body-safe adhesive for a strong yet gentle hold.</p>
                                     </div>
-                                    <span class="price">₹250</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-2s">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image5.jpg" alt="Price">
+                                        <img src="assets/images/wigs/natural-hair.jpg" alt="Natural Hair Wig">
                                     </div>
                                     <div class="content">
-                                        <h5>Beauty & Spa</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Natural Hair Wig</h5>
+                                        <p class="wig-description">Our Natural Hair Wigs are crafted from 100% premium-quality human hair, offering a natural look and feel. Available in a variety of stylish shades, these wigs blend seamlessly with your own hair, enhancing both comfort and confidence.</p>
                                     </div>
-                                    <span class="price">₹2700</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-4s">
+                                <div class="wig-card wow fadeInUp delay-0-4s">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image6.jpg" alt="Price">
+                                        <img src="assets/images/wigs/polyfuse.jpg" alt="Polyfuse Hair Wig">
                                     </div>
                                     <div class="content">
-                                        <h5>Facial & Face Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Polyfuse Hair Wig</h5>
+                                        <p class="wig-description">Our Polyfuse Hair Wigs are designed to enhance your appearance with versatility and style. Available in a wide range of colors and trendy styles, these wigs offer a natural and confident look for every individual. We also provide custom design options based on customer preferences.</p>
                                     </div>
-                                    <span class="price">₹630</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-2s">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image7.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Backbone Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹200</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item wow fadeInUp delay-0-4s">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image8.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Meditation & Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹740</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="beauty">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image6.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Facial & Face Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹400</span>
+                    
+                    <div class="tab-pane fade " id="beauty">
+                        <div class="row" id="wig-cards">
+                            <!-- First 6 Cards (initially visible) -->
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
+                                <div class="image">
+                                    <img src="assets/images/wigs/front-lace-patch.jpg" alt="Front Lace Patch Hair Wig">
+                                </div>
+                                <div class="content">
+                                    <h5>Front Lace Patch Hair Wig</h5>
+                                    <p class="wig-description">Perfect for a natural look with a lace front that blends seamlessly with your scalp.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image7.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Backbone Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹430</span>
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
+                                <div class="image">
+                                    <img src="assets/images/wigs/light-brown.jpg" alt="Light Brown Hair Wig">
+                                </div>
+                                <div class="content">
+                                    <h5>Light Brown Hair Wig</h5>
+                                    <p class="wig-description">Soft, smooth texture in a natural light brown shade, ideal for all skin tones.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image1.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Hair Cutting & Fitting</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹89</span>
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
+                                <div class="image">
+                                    <img src="assets/images/wigs/remy-single-drawn.jpg" alt="Remy Single Drawn Hair Wig">
+                                </div>
+                                <div class="content">
+                                    <h5>Remy Single Drawn Hair Wig</h5>
+                                    <p class="wig-description">Premium Remy hair with single drawn strands for a natural, luxurious finish.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image2.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Shaving & Facial</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹45</span>
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
+                                <div class="image">
+                                    <img src="assets/images/wigs/curly-women.jpg" alt="Curly Hair Women Wig">
+                                </div>
+                                <div class="content">
+                                    <h5>Curly Hair Women Wig</h5>
+                                    <p class="wig-description">A beautiful curly texture for a bouncy, voluminous look.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image3.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Hair Color & Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹35</span>
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
+                                <div class="image">
+                                    <img src="assets/images/wigs/dark-brown.jpg" alt="Dark Brown Hair Women Wig">
+                                </div>
+                                <div class="content">
+                                    <h5>Dark Brown Hair Women Wig</h5>
+                                    <p class="wig-description">Rich dark brown shade, designed for a sleek and sophisticated appearance.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image4.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Body Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹56</span>
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
+                                <div class="image">
+                                    <img src="assets/images/wigs/designer-women.jpg" alt="Designer Women Hair Wig">
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image5.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Beauty & Spa</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹27</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image8.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Meditation & Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹74</span>
+                                <div class="content">
+                                    <h5>Designer Women Hair Wig</h5>
+                                    <p class="wig-description">Chic and stylish wigs, perfect for special occasions or everyday glam.</p>
                                 </div>
                             </div>
                         </div>
+                    
+                        <!-- Load More Button -->
+                        <div class="text-center">
+                            <button id="load-more" class="btn btn-primary">Load More</button>
+                        </div>
                     </div>
+                    
+                    
                     <div class="tab-pane fade" id="bodyy">
                         <div class="row">
                             <div class="col-lg-6">
@@ -909,6 +851,9 @@
             </div>
         </div>
     </section>
+   
+   
+    
     <!-- Pricing Plan Area End -->
     <!-- Gallery Area Start -->
     <section class="gallery-area rel z-1 pt-120 rpt-90 pb-100 rpb-70">
@@ -1184,7 +1129,8 @@
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title text-center mb-50">
                         <h2 class="title">What our clients say</h2>
-                        <p>At Smart Hair Beauty, we believe in creating an experience that goes beyond just great hair, What clients might say after having a great experience at your salon.</p>
+                        <p>At Smart Hair Beauty, we believe in creating an experience that goes beyond just great hair, What
+                            clients might say after having a great experience at your salon.</p>
                     </div>
                 </div>
             </div>
@@ -1212,7 +1158,8 @@
                         <img src="assets/images/testimonials/testimonial2.jpg" alt="Author">
                     </div>
                     <div class="description">
-                        <p>The service at Smart Hair Beauty is unbeatable. I went in for a deep conditioning treatment and left with silky, smooth hair. </p>
+                        <p>The service at Smart Hair Beauty is unbeatable. I went in for a deep conditioning treatment and
+                            left with silky, smooth hair. </p>
                         <h4>Justin D. Thompson</h4>
                         <span class="designation">Senior Manager</span>
                         <div class="ratting">

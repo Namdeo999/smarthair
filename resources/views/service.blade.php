@@ -8,12 +8,12 @@
         <div class="container">
             <div class="banner-inner">
                 <h1 class="page-title wow fadeInRight delay-0-2s">Services</h1>
-                <nav aria-label="breadcrumb">
+                {{-- <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center wow fadeInLeft delay-0-2s">
                         <li class="breadcrumb-item"><a href="{{ url('/home') }}">Home</a></li>
                         <li class="breadcrumb-item active">Services</li>
                     </ol>
-                </nav>
+                </nav> --}}
             </div>
         </div>
 

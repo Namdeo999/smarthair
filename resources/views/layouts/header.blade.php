@@ -26,15 +26,15 @@
                 </div>
 
                 <div class="navbar-collapse collapse clearfix">
+                    {{-- <li><a href="{{url('/')}}">Home</a></li> --}}
                     <ul class="navigation clearfix">
                         {{-- <li class="dropdown"><a href="index.php">Home</a>
                         </li> --}}
                         <li><a href="{{url('/home')}}">Home</a></li>
-                        <li><a href="{{url('/service')}}">Services</a></li>
-                        <li><a href="{{url('/gallary')}}">portfolio</a></li>
                         <li><a href="{{url('/about')}}">About</a></li>
+                        <li><a href="{{url('/service')}}">Services</a></li>
+                        <li><a href="{{url('/gallary')}}">Portfolio</a></li>
                         <li><a href="{{url('/contact')}}">Contact</a></li>
-                       
                     </ul>
                 </div>
 

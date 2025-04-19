@@ -8,8 +8,8 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-8">
                     <div class="hero-content py-10 rpt-0 text-white rmb-70">
-                        <h1 class="wow fadeInUp delay-0-2s">Barbers & Hair Cutting</h1>
-                        <p class="wow fadeInUp delay-0-4s">Experience the future of hair & beauty. With our easy online
+                        <h1 class="wow fadeInUp delay-0-2s">Smart Hair Beauty</h1>
+                        <p class="wow fadeInUp delay-0-4s">Experience the future of smart hair & beauty. With our easy online
                             booking system, you’re just a few clicks away from your next flawless look.</p>
                         <a href="{{ url('/service') }}" class="theme-btn wow fadeInUp delay-0-6s">explore our services <i
                                 class="far fa-long-arrow-right"></i></a>

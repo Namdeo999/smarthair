@@ -6850,6 +6850,7 @@ h1, h2, h3, h4, h5, h6, .section-title .sub-title, .price-tab .nav-link span, .t
     }
 
     .wig-card {
+
       background: #fff;
       border-radius: 15px;
       overflow: hidden;
@@ -6861,12 +6862,19 @@ h1, h2, h3, h4, h5, h6, .section-title .sub-title, .price-tab .nav-link span, .t
       transform: translateY(-5px);
       box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
   }
+  .wig-card .image{
+display: flex;
+justify-content: center;
+      
+      height: inherit;
+  }
   .wig-card .image img {
-      width: 100%;
-      height: auto;
+      padding-bottom: 20px;
+      height: 100px;
   }
   .wig-card .content {
       padding: 20px;
+    
   }
   .wig-card h5 {
       font-size: 18px;

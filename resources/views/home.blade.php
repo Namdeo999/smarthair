@@ -3,7 +3,7 @@
 
 @section('content')
     <!-- Hero Section Start -->
-    <section class="hero-section py-250" style="background-image: url(assets/images/hero/hero-bg.jpg);">
+    <section class="hero-section py-250" style="background-image: url(assets/images/hero/hero.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-8">
@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-xl-4">
                         <div class="feature-image wow fadeInLeft delay-0-2s"
-                            style="background-image: url(assets/images/about/what-we-do.jpg);"></div>
+                            style="background-image: url(assets/images/about/what-we-do.png); "></div>
                     </div>
                     <div class="col-xl-8 align-self-center">
                         <div class="what-we-do-content wow fadeInRight delay-0-2s">
@@ -94,8 +94,8 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </div>
                     </div>
                 </div>
@@ -104,16 +104,16 @@
     </section>
     <!-- What We Do Area End -->
     <!-- About Us Area Start -->
-    <section class="about-us-area">
+    <section class="about-us-area mb-30">
         <div class="row">
             <div class="col-xl-3 col-sm-6">
                 <div class="about-left-image wow fadeInUp delay-0-2s">
-                    <img src="assets/images/about/about-left.jpg" alt="About Left">
+                    <img src="assets/images/about/about-left.jpg" alt="About Left" width="500px">
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 order-xl-2">
                 <div class="about-right-image wow fadeInUp delay-0-6s">
-                    <img src="assets/images/about/about-right.jpg" alt="About Right" height="490px">
+                    <img src="assets/images/about/about-right.jpg" alt="About Right" style="object-fit: cover">
                 </div>
             </div>
             <div class="col-xl-6 align-self-center">
@@ -169,7 +169,9 @@
                 <div class="col-xl-8 col-lg-8 col-md-8">
                     <div class="section-title text-center mb-55">
                         <h2 class="title">Service we provide</h2>
-                        <p>Explore our extensive range of specialized services tailored to enhance your style and self-care. Whether you’re looking for a haircut, hair replacement, or a complete transformation, we deliver exceptional quality, comfort, and confidence with every treatment.</p>
+                        <p>Explore our extensive range of specialized services tailored to enhance your style and self-care.
+                            Whether you’re looking for a haircut, hair replacement, or a complete transformation, we deliver
+                            exceptional quality, comfort, and confidence with every treatment.</p>
                     </div>
                 </div>
             </div>
@@ -247,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div class="services-shapes">
             <img class="shape-one" src="assets/images/shapes/service-one.png" alt="Shape">
@@ -307,146 +309,192 @@
                         </a>
                     </li>
                 </ul>
-                
-            <br>
+
+                <br>
                 <div class="tab-content price-tab-content ">
                     <div class="tab-pane fade show active" id="hair">
+
                         <div class="row ">
                             <div class="col-lg-6">
+
                                 <div class="wig-card wow fadeInUp delay-0-2s">
-                                    <div class="image">
-                                        <img src="assets/images/wigs/mens-lace.jpg" alt="Mens Lace Hair Wig">
-                                    </div>
+
                                     <div class="content">
                                         <h5>Mens Lace Hair Wig</h5>
-                                        <p class="wig-description">Our company is a market-leading manufacturer, exporter, and supplier of premium quality Mens Lace Hair Wigs. Crafted from high-grade synthetic hair, our lace wigs provide a natural look and comfortable fit. We source materials from trusted vendors, ensuring that every product meets strict quality standards.</p>
+                                        <p class="wig-description">Our company is a market-leading manufacturer, exporter,
+                                            and supplier of premium quality Mens Lace Hair Wigs. Crafted from high-grade
+                                            synthetic hair, our lace wigs provide a natural look and comfortable fit. We
+                                            source materials from trusted vendors, ensuring that every product meets strict
+                                            quality standards.</p>
+                                    </div>
+                                    <div class="image">
+                                        <a href="assets/images/about/mens-lace.jpg">
+                                        <img src="assets/images/about/mens-lace.jpg" alt="Mens Lace Hair Wig">
+                                    </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="wig-card wow fadeInUp delay-0-4s">
-                                    <div class="image">
-                                        <img src="assets/images/wigs/stylish-mens.jpg" alt="Stylish Mens Hair Wig">
-                                    </div>
+
                                     <div class="content">
                                         <h5>Stylish Mens Hair Wig</h5>
-                                        <p class="wig-description">We specialize in the manufacture, export, and supply of premium-quality Stylish Mens Hair Wigs at the most affordable prices. As a trusted name in the wig industry, we are proud to be one of Bhopal’s leading men’s wig exporters, offering fashionable and natural-looking hair solutions.</p>
+                                        <p class="wig-description">We specialize in the manufacture, export, and supply of
+                                            premium-quality Stylish Mens Hair Wigs at the most affordable prices. <br>As a
+                                            trusted name in the wig industry, we are proud to be one of Bhopal’s leading
+                                            men’s wig exporters, offering fashionable and natural-looking hair solutions.
+                                        </p>
+                                    </div>
+                                    <div class="image">
+                                        <a href="assets/images/about/stylish-mens.jpg">
+                                        <img src="assets/images/about/stylish-mens.jpg" alt="Stylish Mens Hair Wig">
+                                    </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="wig-card wow fadeInUp delay-0-2s">
-                                    <div class="image">
-                                        <img src="assets/images/wigs/full-gents.jpg" alt="Full Gents Hair Wig">
-                                    </div>
+
                                     <div class="content">
                                         <h5>Full Gents Hair Wig</h5>
-                                        <p class="wig-description">We are a trusted manufacturer, exporter, and supplier of Full Gents Hair Wigs, based in Bhopal, India. Crafted using high-quality synthetic materials, this wig offers a full-cap coverage that comfortably fits the entire head.</p>
+                                        <p class="wig-description">We are a trusted manufacturer, exporter, and supplier of
+                                            Full Gents Hair Wigs, based in Bhopal, India. <br>Crafted using high-quality
+                                            synthetic materials, this wig offers a full-cap coverage that comfortably fits
+                                            the entire head.</p>
+                                    </div>
+                                    <div class="image">
+                                        <a href="assets/images/about/full-gents.jpg">
+                                        <img src="assets/images/about/full-gents.jpg" alt="Full Gents Hair Wig">
+                                    </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="wig-card wow fadeInUp delay-0-4s">
-                                    <div class="image">
-                                        <img src="assets/images/wigs/hair-patch.jpg" alt="Hair Patch Wig">
-                                    </div>
+
                                     <div class="content">
                                         <h5>Hair Patch Wig</h5>
-                                        <p class="wig-description">We are proud to be counted among Bhopal, India's leading manufacturers, exporters, and suppliers of premium Hair Patch Wigs. The patch features a rectangular base design that fits naturally and is secured with body-safe adhesive for a strong yet gentle hold.</p>
+                                        <p class="wig-description">We are proud to be counted among Bhopal, India's leading
+                                            manufacturers, exporters, and suppliers of premium Hair Patch Wigs. The patch
+                                            features a rectangular base design that fits naturally and is secured with
+                                            body-safe adhesive for a strong yet gentle hold.</p>
+                                    </div>
+                                    <div class="image">
+                                        <a href="assets/images/about/hair-patch.jpg">
+                                        <img src="assets/images/about/hair-patch.jpg" alt="Hair Patch Wig">
+                                    </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="wig-card wow fadeInUp delay-0-2s">
-                                    <div class="image">
-                                        <img src="assets/images/wigs/natural-hair.jpg" alt="Natural Hair Wig">
-                                    </div>
+
                                     <div class="content">
                                         <h5>Natural Hair Wig</h5>
-                                        <p class="wig-description">Our Natural Hair Wigs are crafted from 100% premium-quality human hair, offering a natural look and feel. Available in a variety of stylish shades, these wigs blend seamlessly with your own hair, enhancing both comfort and confidence.</p>
+                                        <p class="wig-description">Our Natural Hair Wigs are crafted from 100%
+                                            premium-quality human hair, offering a natural look and feel. Available in a
+                                            variety of stylish shades, these wigs blend seamlessly with your own hair,
+                                            enhancing both comfort and confidence.</p>
+                                    </div>
+                                    <div class="image">
+                                        <a href="assets/images/about/natural-hair.jpg">
+                                            <img src="assets/images/about/natural-hair.jpg" alt="Natural Hair Wig">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="wig-card wow fadeInUp delay-0-4s">
-                                    <div class="image">
-                                        <img src="assets/images/wigs/polyfuse.jpg" alt="Polyfuse Hair Wig">
-                                    </div>
+
                                     <div class="content">
                                         <h5>Polyfuse Hair Wig</h5>
-                                        <p class="wig-description">Our Polyfuse Hair Wigs are designed to enhance your appearance with versatility and style. Available in a wide range of colors and trendy styles, these wigs offer a natural and confident look for every individual. We also provide custom design options based on customer preferences.</p>
+                                        <p class="wig-description">Our Polyfuse Hair Wigs are designed to enhance your
+                                            appearance with versatility and style. Available in a wide range of colors and
+                                            trendy styles, these wigs offer a natural and confident look for every
+                                            individual. We also provide custom design options based on customer preferences.
+                                        </p>
+                                    </div>
+                                    <div class="image">
+                                        <a href="assets/images/about/polyfuse.jpg">
+                                            <img src="assets/images/about/polyfuse.jpg" alt="Polyfuse Hair Wig">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="tab-pane fade " id="beauty">
                         <div class="row" id="wig-cards">
                             <!-- First 6 Cards (initially visible) -->
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
+                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s ">
+                
+                                <div class="content">
+                                    <h5>Front Lace Patch Hair Wig</h5>
+                                    <p class="wig-description">Perfect for a natural look with a lace front that blends
+                                        seamlessly with your scalp.</p>
+                                </div>
                                 <div class="image">
                                     <img src="assets/images/wigs/front-lace-patch.jpg" alt="Front Lace Patch Hair Wig">
                                 </div>
-                                <div class="content">
-                                    <h5>Front Lace Patch Hair Wig</h5>
-                                    <p class="wig-description">Perfect for a natural look with a lace front that blends seamlessly with your scalp.</p>
-                                </div>
                             </div>
                             <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
+                               
+                                <div class="content">
+                                    <h5>Light Brown Hair Wig</h5>
+                                    <p class="wig-description">Soft, smooth texture in a natural light brown shade, ideal
+                                        for all skin tones.</p>
+                                </div>
                                 <div class="image">
                                     <img src="assets/images/wigs/light-brown.jpg" alt="Light Brown Hair Wig">
                                 </div>
-                                <div class="content">
-                                    <h5>Light Brown Hair Wig</h5>
-                                    <p class="wig-description">Soft, smooth texture in a natural light brown shade, ideal for all skin tones.</p>
-                                </div>
                             </div>
                             <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
+                               
+                                <div class="content">
+                                    <h5>Remy Single Drawn Hair Wig</h5>
+                                    <p class="wig-description">Premium Remy hair with single drawn strands for a natural,
+                                        luxurious finish.</p>
+                                </div>
                                 <div class="image">
                                     <img src="assets/images/wigs/remy-single-drawn.jpg" alt="Remy Single Drawn Hair Wig">
                                 </div>
-                                <div class="content">
-                                    <h5>Remy Single Drawn Hair Wig</h5>
-                                    <p class="wig-description">Premium Remy hair with single drawn strands for a natural, luxurious finish.</p>
-                                </div>
                             </div>
                             <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
-                                <div class="image">
-                                    <img src="assets/images/wigs/curly-women.jpg" alt="Curly Hair Women Wig">
-                                </div>
+                               
                                 <div class="content">
                                     <h5>Curly Hair Women Wig</h5>
                                     <p class="wig-description">A beautiful curly texture for a bouncy, voluminous look.</p>
                                 </div>
+                                <div class="image">
+                                    <img src="assets/images/wigs/curly-women.jpg" alt="Curly Hair Women Wig">
+                                </div>
                             </div>
                             <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
+                               
+                                <div class="content">
+                                    <h5>Dark Brown Hair Women Wig</h5>
+                                    <p class="wig-description">Rich dark brown shade, designed for a sleek and
+                                        sophisticated appearance.</p>
+                                </div>
                                 <div class="image">
                                     <img src="assets/images/wigs/dark-brown.jpg" alt="Dark Brown Hair Women Wig">
                                 </div>
-                                <div class="content">
-                                    <h5>Dark Brown Hair Women Wig</h5>
-                                    <p class="wig-description">Rich dark brown shade, designed for a sleek and sophisticated appearance.</p>
-                                </div>
                             </div>
                             <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
+                               
+                                <div class="content">
+                                    <h5>Designer Women Hair Wig</h5>
+                                    <p class="wig-description">Chic and stylish wigs, perfect for special occasions or
+                                        everyday glam.</p>
+                                </div>
                                 <div class="image">
                                     <img src="assets/images/wigs/designer-women.jpg" alt="Designer Women Hair Wig">
                                 </div>
-                                <div class="content">
-                                    <h5>Designer Women Hair Wig</h5>
-                                    <p class="wig-description">Chic and stylish wigs, perfect for special occasions or everyday glam.</p>
-                                </div>
                             </div>
                         </div>
-                    
-                        <!-- Load More Button -->
-                        <div class="text-center">
-                            <button id="load-more" class="btn btn-primary">Load More</button>
-                        </div>
                     </div>
-                    
-                    
+
                     <div class="tab-pane fade" id="bodyy">
                         <div class="row">
                             <div class="col-lg-6">
@@ -546,7 +594,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="tab-pane fade" id="washing">
                         <div class="row">
                             <div class="col-lg-6">
@@ -851,9 +899,9 @@
             </div>
         </div>
     </section>
-   
-   
-    
+
+
+
     <!-- Pricing Plan Area End -->
     <!-- Gallery Area Start -->
     <section class="gallery-area rel z-1 pt-120 rpt-90 pb-100 rpb-70">
@@ -877,10 +925,10 @@
             <div class="row">
                 <div class="col-xl-3 col-sm-6">
                     <div class="gallery-item wow fadeInUp delay-0-2s">
-                        <img src="assets/images/gellary/gallery1.jpg" alt="Gallery">
+                        <img src="assets/images/gellary/gallary1.jpg" alt="Gallery">
                         <div class="gallery-content">
-                            <h3>Hair Cutting</h3>
-                            <p>Barbers & Salon Services</p>
+                            <h3>Hair patching</h3>
+                            <p>Hair replacement Services</p>
                             <a href="portfolio-details.php" class="details-btn"><i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
@@ -888,10 +936,10 @@
                 </div>
                 <div class="col-xl-3 col-sm-6">
                     <div class="gallery-item wow fadeInUp delay-0-4s">
-                        <img src="assets/images/gellary/gallery2.jpg" alt="Gallery">
+                        <img src="assets/images/gellary/gallary2.jpg" alt="Gallery">
                         <div class="gallery-content">
-                            <h3>Hair Cutting</h3>
-                            <p>Barbers & Salon Services</p>
+                            <h3>Hair patching</h3>
+                            <p>Hair replacement Services</p>
                             <a href="portfolio-details.php" class="details-btn"><i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
@@ -899,10 +947,10 @@
                 </div>
                 <div class="col-xl-3 col-sm-6">
                     <div class="gallery-item wow fadeInUp delay-0-6s">
-                        <img src="assets/images/gellary/gallery3.jpg" alt="Gallery">
+                        <img src="assets/images/gellary/gallary3.jpg" alt="Gallery">
                         <div class="gallery-content">
-                            <h3>Hair Cutting</h3>
-                            <p>Barbers & Salon Services</p>
+                            <h3>Hair patching</h3>
+                            <p>Hair replacement Services</p>
                             <a href="portfolio-details.php" class="details-btn"><i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
@@ -910,10 +958,10 @@
                 </div>
                 <div class="col-xl-3 col-sm-6">
                     <div class="gallery-item wow fadeInUp delay-0-8s">
-                        <img src="assets/images/gellary/gallery4.jpg" alt="Gallery">
+                        <img src="assets/images/gellary/gallary4.jpg" alt="Gallery">
                         <div class="gallery-content">
-                            <h3>Hair Cutting</h3>
-                            <p>Barbers & Salon Services</p>
+                            <h3>Hair patching</h3>
+                            <p>Hair replacement Services</p>
                             <a href="portfolio-details.php" class="details-btn"><i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>

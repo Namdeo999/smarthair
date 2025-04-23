@@ -33,16 +33,13 @@
                     <div class="about-content-four wow fadeInUp delay-0-4s">
                         <h3 class="experience mb-35"><span class="number">15</span> years of experience</h3>
                         <div class="section-title mb-35">
-                            <h2 class="title">we’re Best barbers & hair cutting salon</h2>
+                            <h2 class="title">We’re the Best in Hair Replacement & Wigs</h2>
                         </div>
-                        <p>At Smart Hair Beauty, excellence is more than a promise — it’s our standard. With a team of
-                            skilled barbers and stylists, we deliver precision cuts, fresh fades, and timeless styles
-                            tailored just for you. Every service is backed by quality, care, and a passion for making you
-                            look and feel your absolute best.
+                        <p>At Smart Hair Beauty, excellence in hair solutions is our promise — and we live up to it with every service. Specializing in high-quality wigs and hair replacement systems, we offer a range of options tailored to meet your specific needs. Our team of experts provides the latest in hair patches, lace wigs, and extensions, ensuring a seamless blend with your natural hair.
 
-                            We combine expert technique with a welcoming vibe to give you more than just a haircut — we give
-                            you a full grooming experience. Whether you're after a classic look or a bold new style, you're
-                            in the right hands.</p>
+                            Whether you're looking for a stylish Men's Lace Hair Wig, a fashionable Women's Remy Hair Wig, or a versatile Polyfuse Hair Wig, we deliver top-tier products and impeccable service. We go beyond just providing hair solutions — we help you regain your confidence and achieve the look you've always desired.
+                            
+                            At Smart Hair Beauty, our mission is to provide you with a customized, comfortable experience and top-notch products that transform your hair and elevate your style.</p>
                         {{-- <div class="our-author mt-20">
                             <img src="assets/images/about/author.jpg" alt="Authro">
                             <div class="content">
@@ -75,7 +72,7 @@
             <div class="price-tab-wrap p-40 bg-white">
                 <ul class="nav nav-justified price-tab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#hair">
+                        <a class="nav-link active" data-toggle="tab" href="#hair_cut">
                             <i class="flaticon-beauty-salon"></i>
                             <span>Hair weaving</span>
                         </a>
@@ -112,7 +109,7 @@
                     </li>
                 </ul>
                 <div class="tab-content price-tab-content">
-                    <div class="tab-pane fade show active" id="hair">
+                    <div class="tab-pane fade show active" id="hair_cut">
                         <div class="row">
                             <div class="py-5 mt-5 ">
                                 <div class="container">

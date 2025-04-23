@@ -51,9 +51,9 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="feature-item">
-                                        <div class="icon">
+                                        {{-- <div class="icon">
                                             <i class="flaticon-hair-patch"></i>
-                                        </div>
+                                        </div> --}}
                                         <div class="content">
                                             <h4><a href="service-details.php">Hair Patching</a></h4>
                                             <p>Expert non-surgical hair patch solutions for a natural, full-head look.</p>
@@ -62,20 +62,20 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="feature-item">
-                                        <div class="icon">
+                                        {{-- <div class="icon">
                                             <i class="flaticon-hair-replacement"></i>
-                                        </div>
+                                        </div> --}}
                                         <div class="content">
                                             <h4><a href="service-details.php">Hair Replacement</a></h4>
-                                            <p>Advanced, customized hair replacement systems tailored to your needs.</p>
+                                            <p>Advanced, hair replacement systems tailored to your needs.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="feature-item">
-                                        <div class="icon">
+                                        {{-- <div class="icon">
                                             <i class="flaticon-natural-hair"></i>
-                                        </div>
+                                        </div> --}}
                                         <div class="content">
                                             <h4><a href="service-details.php">Hair Loss Solutions</a></h4>
                                             <p>Personalized treatments to prevent hair loss and restore natural hair.</p>
@@ -84,9 +84,9 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="feature-item">
-                                        <div class="icon">
+                                        {{-- <div class="icon">
                                             <i class="flaticon-consultation"></i>
-                                        </div>
+                                        </div> --}}
                                         <div class="content">
                                             <h4><a href="service-details.php">Free Consultation</a></h4>
                                             <p>Get expert advice on the best hair restoration solution for you.</p>
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <p>At SmartHair Beauty, we combine advanced hair replacement technology with expert care to provide
+                    <p class="text-justify">At SmartHair Beauty, we combine advanced hair replacement technology with expert care to provide
                         solutions that restore both your hair and confidence. Our skilled professionals specialize in hair
                         patching, customized hair wigs, and non-surgical hair loss treatments that cater to your unique
                         needs. Whether you’re looking to cover thinning spots, restore a full head of hair, or find a
@@ -178,73 +178,73 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-2s">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i class="flaticon-hair-patch"></i>
-                        </div>
+                        </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Patch Solutions</a></h3>
                             <p>Non-surgical hair patching to restore volume and boost your confidence.</p>
-                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-4s">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i class="flaticon-hair-replacement"></i>
-                        </div>
+                        </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Replacement</a></h3>
                             <p>Advanced hair replacement systems for permanent and natural-looking results.</p>
-                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-6s">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i class="flaticon-hair-bonding"></i>
-                        </div>
+                        </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Bonding Treatment</a></h3>
                             <p>Expert bonding techniques to create a seamless, natural-looking hairline.</p>
-                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-2s">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i class="flaticon-hair-extension"></i>
-                        </div>
+                        </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Extension Services</a></h3>
                             <p>High-quality hair extensions to add volume, length, and style.</p>
-                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-4s">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i class="flaticon-hair-fall"></i>
-                        </div>
+                        </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Fall Treatment</a></h3>
                             <p>Effective treatments designed to reduce hair fall and promote healthy growth.</p>
-                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-6s">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i class="flaticon-hair-weaving"></i>
-                        </div>
+                        </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Weaving</a></h3>
                             <p>Customized hair weaving techniques for a fuller, more natural look.</p>
-                            <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -274,37 +274,37 @@
                 <ul class="nav nav-justified price-tab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#hair">
-                            <i class="flaticon-man"></i>
+                            {{-- <i class="flaticon-man"></i> --}}
                             <span>Mens Wigs</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#beauty">
-                            <i class="flaticon-woman"></i>
+                            {{-- <i class="flaticon-woman"></i> --}}
                             <span>Women Hair Wigs</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#bodyy">
-                            <i class="flaticon-wig"></i>
+                            {{-- <i class="flaticon-wig"></i> --}}
                             <span>Lace Hair System</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#washing">
-                            <i class="flaticon-comb"></i>
+                            {{-- <i class="flaticon-comb"></i> --}}
                             <span>Hair Extension</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#meditations">
-                            <i class="flaticon-hair-dye"></i>
+                            {{-- <i class="flaticon-hair-dye"></i> --}}
                             <span>Hair Patch Accessories</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#shaving">
-                            <i class="flaticon-care"></i>
+                            {{-- <i class="flaticon-care"></i> --}}
                             <span>Chemotherapy Wigs</span>
                         </a>
                     </li>
@@ -929,8 +929,7 @@
                         <div class="gallery-content">
                             <h3>Hair patching</h3>
                             <p>Hair replacement Services</p>
-                            <a href="portfolio-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="portfolio-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -940,8 +939,7 @@
                         <div class="gallery-content">
                             <h3>Hair patching</h3>
                             <p>Hair replacement Services</p>
-                            <a href="portfolio-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="portfolio-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -951,8 +949,7 @@
                         <div class="gallery-content">
                             <h3>Hair patching</h3>
                             <p>Hair replacement Services</p>
-                            <a href="portfolio-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="portfolio-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -962,8 +959,7 @@
                         <div class="gallery-content">
                             <h3>Hair patching</h3>
                             <p>Hair replacement Services</p>
-                            <a href="portfolio-details.php" class="details-btn"><i
-                                    class="far fa-long-arrow-right"></i></a>
+                            {{-- <a href="portfolio-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>

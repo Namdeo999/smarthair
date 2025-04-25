@@ -4443,10 +4443,40 @@ h1, h2, h3, h4, h5, h6, .section-title .sub-title, .price-tab .nav-link span, .t
         -ms-transform: translate(-50%, 50%);
         transform: translate(-50%, 50%); }
 
-@media only screen and (max-width: 767px) {
-  .price-tab-wrap {
-    padding-left: 5px;
-    padding-right: 5px; } }
+        @media only screen and (max-width: 767px) {
+          .price-tab {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px 15px;
+          }
+        
+          .price-tab .nav-item {
+            width: 100%;
+          }
+        
+          .price-tab .nav-link {
+            width: 100%;
+            display: block;
+            text-align: center;
+            background-color: #f2f2f2;
+            border-radius: 8px;
+            padding: 10px 15px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+          }
+        
+          .price-tab .nav-link.active {
+            background-color: #d6a354;
+            color: #fff;
+          }
+        
+          .price-tab .nav-link span {
+            display: block;
+          }
+        }
+        
 
 .price-tab-content {
   padding-left: 20px;
@@ -6856,6 +6886,7 @@ h1, h2, h3, h4, h5, h6, .section-title .sub-title, .price-tab .nav-link span, .t
       overflow: hidden;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
       margin-bottom: 30px;
+      padding-right: 20px;
       transition: all 0.3s ease-in-out;
   }
   .wig-card:hover {
@@ -6885,4 +6916,28 @@ justify-content: center;
       font-size: 14px;
       color: #666;
       line-height: 1.6;
+  }
+
+
+  .whatsapp-float {
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease-in-out;
+      z-index: 10;
+  }
+
+  .whatsapp-float:hover {
+      transform: scale(1.1);
+
+  }
+
+  .whatsapp-icon {
+      width: 40px;
+      /* height: 50px; */
   }

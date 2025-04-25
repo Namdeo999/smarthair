@@ -43,13 +43,37 @@
             </div>
             <div class="col-xl-3 col-md-4 col-sm-6">
                 <div class="gallery-item style-two wow fadeInUp delay-0-4s">
+                    <img src="assets/images/gellary/gallery1.jpg" alt="Gallery" height="513px" style="object-fit: cover">
+                    <div class="gallery-content">
+                        <a href="assets/images/gellary/gallery1.jpg" class="icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="gallery-item style-two wow fadeInUp delay-0-6s">
+                    <img src="assets/images/gellary/gallery2.jpg" alt="Gallery" height="513px" style="object-fit: cover">
+                    <div class="gallery-content">
+                        <a href="assets/images/gellary/gallery2.jpg" class="icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="gallery-item style-two wow fadeInUp delay-0-2s">
                     <img src="assets/images/gellary/gallery3.jpg" alt="Gallery" height="513px" style="object-fit: cover">
                     <div class="gallery-content">
                         <a href="assets/images/gellary/gallery3.jpg" class="icon"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-sm-6">
+            <div class="col-xl-6 col-md-8 order-mo-2">
+                <div class="gallery-item style-two wow fadeInUp delay-0-4s">
+                    <img src="assets/images/gellary/gallery-big4.jpg" alt="Gallery" height="513px" style="object-fit: cover">
+                    <div class="gallery-content">
+                        <a href="assets/images/gellary/gallery-big4.jpg" class="icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <div class="gallery-item style-two wow fadeInUp delay-0-6s">
                     <img src="assets/images/gellary/gallery5.jpg" alt="Gallery" height="513px" style="object-fit: cover">
                     <div class="gallery-content">
@@ -57,35 +81,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-sm-6">
-                <div class="gallery-item style-two wow fadeInUp delay-0-2s">
-                    <img src="assets/images/gellary/gallery2.jpg" alt="Gallery" height="513px" style="object-fit: cover">
-                    <div class="gallery-content">
-                        <a href="assets/images/gellary/gallery2.jpg" class="icon"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-md-8 order-mo-2">
-                <div class="gallery-item style-two wow fadeInUp delay-0-4s">
-                    <img src="assets/images/gellary/gallery-big2.jpg" alt="Gallery" height="513px" style="object-fit: cover">
-                    <div class="gallery-content">
-                        <a href="assets/images/gellary/gallery-big2.jpg" class="icon"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-                <div class="gallery-item style-two wow fadeInUp delay-0-6s">
-                    <img src="assets/images/gellary/gallery4.jpg" alt="Gallery" height="513px" style="object-fit: cover">
-                    <div class="gallery-content">
-                        <a href="assets/images/gellary/gallery4.jpg" class="icon"></a>
-                    </div>
-                </div>
-            </div>
             <div class="col-xl-6 col-md-8">
                 <div class="gallery-item style-two wow fadeInUp delay-0-2s">
-                    <img src="assets/images/gellary/gallery-big5.jpg" alt="Gallery" height="513px" style="object-fit: cover">
+                    <img src="assets/images/gellary/gallery-big6.jpg" alt="Gallery" height="513px" style="object-fit: cover">
                     <div class="gallery-content">
-                        <a href="assets/images/gellary/gallery-big5.jpg" class="icon"></a>
+                        <a href="assets/images/gellary/gallery-big6.jpg" class="icon"></a>
                     </div>
                 </div>
             </div>
@@ -107,9 +107,9 @@
             </div>
             <div class="col-xl-6 col-md-8">
                 <div class="gallery-item style-two wow fadeInUp delay-0-4s">
-                    <img src="assets/images/gellary/gallery-big6.jpg" alt="Gallery" height="513px" style="object-fit: cover">
+                    <img src="assets/images/gellary/gallery-big9.jpg" alt="Gallery" height="513px" style="object-fit: cover">
                     <div class="gallery-content">
-                        <a href="assets/images/gellary/gallery-big6.jpg" class="icon"></a>
+                        <a href="assets/images/gellary/gallery-big9.jpg" class="icon"></a>
                     </div>
                 </div>
             </div>
@@ -123,9 +123,9 @@
             </div>
             <div class="col-xl-3 col-sm-6">
                 <div class="gallery-item style-two wow fadeInUp delay-0-2s">
-                    <img src="assets/images/gellary/gallery9.jpg" alt="Gallery" height="513px" style="object-fit: cover">
+                    <img src="assets/images/gellary/gallery11.jpg" alt="Gallery" height="513px" style="object-fit: cover">
                     <div class="gallery-content">
-                        <a href="assets/images/gellary/gallery9.jpg" class="icon"></a>
+                        <a href="assets/images/gellary/gallery11.jpg" class="icon"></a>
                     </div>
                 </div>
             </div>

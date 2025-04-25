@@ -8,7 +8,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-8">
                     <div class="hero-content py-10 rpt-0 text-white rmb-70">
-                        <h1 class="wow fadeInUp delay-0-2s">Smart Hair Beauty</h1>
+                        <h1 class=" custom-font delay-0-2s">Smart Hair Beauty</h1>
                         <p class="wow fadeInUp delay-0-4s">Experience the future of smart hair & beauty. With our easy online
                             booking system, you’re just a few clicks away from your next flawless look.</p>
                         <a href="{{ url('/service') }}" class="theme-btn wow fadeInUp delay-0-6s">explore our services <i
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="hero-video text-lg-right wow zoomIn delay-0-6s">
-                        <a href="{{ asset('assets/images/video.mp4') }}" class="mfp-iframe video-play"><i
+                        <a href="{{ asset('assets/images/video1.mp4') }}" class="mfp-iframe video-play"><i
                                 class="fas fa-play"></i></a>
                     </div>
                 </div>
@@ -125,7 +125,8 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-justify">At SmartHair Beauty, we combine advanced hair replacement technology with expert care to provide
+                    <p class="text-justify">At SmartHair Beauty, we combine advanced hair replacement technology with expert
+                        care to provide
                         solutions that restore both your hair and confidence. Our skilled professionals specialize in hair
                         patching, customized hair wigs, and non-surgical hair loss treatments that cater to your unique
                         needs. Whether you’re looking to cover thinning spots, restore a full head of hair, or find a
@@ -162,6 +163,51 @@
         </div>
     </section>
     <!-- Call To Action End -->
+    <section class="pricing-plan-area bgs-cover pt-120 rpt-90 pb-130 rpb-100"
+        style="background-image: url(assets/images/background/pricing-plan-bg1.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-8">
+                    <div class="section-title text-white text-center mb-55">
+                        <h2 class="title">Smart Hair Beauty Solution</h2>
+                        <p>At Smart Hair Beauty, we specialize in transforming lives through high-quality non-surgical hair replacement solutions. From custom hair patches to natural-looking wigs, our services are designed to restore not just your hair — but your confidence too.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="price-tab-wrap p-40  bg-white">
+                <section class="smart-hair-about py-5">
+                    <div class="container">
+                      <div class="row align-items-center">
+                        
+                        <!-- Image -->
+                        <div class="col-md-6 mb-4 mb-md-0">
+                          <img src="assets/images/about/hair-replacement-banner.jpg" alt="Smart Hair Beauty" class="img-fluid rounded-4 shadow">
+                        </div>
+                  
+                        <!-- Content -->
+                        <div class="col-md-6">
+                          <h2 class="mb-3">Why Choose Smart Hair Beauty?</h2>
+                          <p>
+                            At Smart Hair Beauty, we specialize in non-surgical hair patching and hair replacement solutions designed for both men and women dealing with hair thinning, baldness, or medical hair loss. Our systems are customized to ensure a natural look and snug fit — whether it’s a lace system, full wig, or partial hair patch. Using premium synthetic and 100% natural human hair, we deliver seamless, breathable, and undetectable results that bring confidence back to your everyday life. Every product is crafted for both style and comfort, empowering you to look great and feel even better.
+                          </p>
+                          <ul class="list-unstyled mt-3">
+                            <li>✔️ Tailored Hair Patching & Replacement</li>
+                            <li>✔️ Lace Wigs, Hair Extensions & Toupees</li>
+                            <li>✔️ Chemotherapy Wigs & Medical Hair Systems</li>
+                            <li>✔️ Lightweight, Breathable & Natural-Looking</li>
+                            <li>✔️ Wig Accessories & Maintenance Essentials</li>
+                          </ul>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </section>
+                  
+            </div>
+        </div>
+    </section>
     <!-- Services Area Start -->
     <section class="services-area rel z-1 pt-120 rpt-90 pb-100 rpb-70">
         <div class="container">
@@ -257,7 +303,7 @@
         </div>
     </section>
     <!-- Services Area End -->
-    <!-- Pricing Plan Area Start -->
+    <!-- our product Area Start -->
     <section class="pricing-plan-area bgs-cover pt-120 rpt-90 pb-130 rpb-100"
         style="background-image: url(assets/images/background/pricing-plan-bg1.jpg);">
         <div class="container">
@@ -329,8 +375,8 @@
                                     </div>
                                     <div class="image">
                                         <a href="assets/images/about/mens-lace.jpg">
-                                        <img src="assets/images/about/mens-lace.jpg" alt="Mens Lace Hair Wig">
-                                    </a>
+                                            <img src="assets/images/about/mens-lace.jpg" alt="Mens Lace Hair Wig">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -347,8 +393,8 @@
                                     </div>
                                     <div class="image">
                                         <a href="assets/images/about/stylish-mens.jpg">
-                                        <img src="assets/images/about/stylish-mens.jpg" alt="Stylish Mens Hair Wig">
-                                    </a>
+                                            <img src="assets/images/about/stylish-mens.jpg" alt="Stylish Mens Hair Wig">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -364,8 +410,8 @@
                                     </div>
                                     <div class="image">
                                         <a href="assets/images/about/full-gents.jpg">
-                                        <img src="assets/images/about/full-gents.jpg" alt="Full Gents Hair Wig">
-                                    </a>
+                                            <img src="assets/images/about/full-gents.jpg" alt="Full Gents Hair Wig">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -381,8 +427,8 @@
                                     </div>
                                     <div class="image">
                                         <a href="assets/images/about/hair-patch.jpg">
-                                        <img src="assets/images/about/hair-patch.jpg" alt="Hair Patch Wig">
-                                    </a>
+                                            <img src="assets/images/about/hair-patch.jpg" alt="Hair Patch Wig">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -425,71 +471,82 @@
                     </div>
 
                     <div class="tab-pane fade " id="beauty">
-                        <div class="row" id="wig-cards">
+                        <div class="row">
                             <!-- First 6 Cards (initially visible) -->
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s ">
-                
-                                <div class="content">
-                                    <h5>Front Lace Patch Hair Wig</h5>
-                                    <p class="wig-description">Perfect for a natural look with a lace front that blends
-                                        seamlessly with your scalp.</p>
-                                </div>
-                                <div class="image">
-                                    <img src="assets/images/wigs/front-lace-patch.jpg" alt="Front Lace Patch Hair Wig">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
-                               
-                                <div class="content">
-                                    <h5>Light Brown Hair Wig</h5>
-                                    <p class="wig-description">Soft, smooth texture in a natural light brown shade, ideal
-                                        for all skin tones.</p>
-                                </div>
-                                <div class="image">
-                                    <img src="assets/images/wigs/light-brown.jpg" alt="Light Brown Hair Wig">
+                            <div class="col-lg-6  ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
+                                    <div class="content">
+                                        <h5>Front Lace Patch Hair Wig</h5>
+                                        <p class="wig-description">Perfect for a natural look with a lace front that blends
+                                            seamlessly with your scalp.</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/front-lace-patch.jpg"
+                                            alt="Front Lace Patch Hair Wig">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
-                               
-                                <div class="content">
-                                    <h5>Remy Single Drawn Hair Wig</h5>
-                                    <p class="wig-description">Premium Remy hair with single drawn strands for a natural,
-                                        luxurious finish.</p>
-                                </div>
-                                <div class="image">
-                                    <img src="assets/images/wigs/remy-single-drawn.jpg" alt="Remy Single Drawn Hair Wig">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
-                               
-                                <div class="content">
-                                    <h5>Curly Hair Women Wig</h5>
-                                    <p class="wig-description">A beautiful curly texture for a bouncy, voluminous look.</p>
-                                </div>
-                                <div class="image">
-                                    <img src="assets/images/wigs/curly-women.jpg" alt="Curly Hair Women Wig">
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
+                                    <div class="content">
+                                        <h5>Light Brown Hair Wig</h5>
+                                        <p class="wig-description">Soft, smooth texture in a natural light brown shade,
+                                            ideal
+                                            for all skin tones.</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/light-brown.jpg" alt="Light Brown Hair Wig">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-2s">
-                               
-                                <div class="content">
-                                    <h5>Dark Brown Hair Women Wig</h5>
-                                    <p class="wig-description">Rich dark brown shade, designed for a sleek and
-                                        sophisticated appearance.</p>
-                                </div>
-                                <div class="image">
-                                    <img src="assets/images/wigs/dark-brown.jpg" alt="Dark Brown Hair Women Wig">
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
+                                    <div class="content">
+                                        <h5>Remy Single Drawn Hair Wig</h5>
+                                        <p class="wig-description">Premium Remy hair with single drawn strands for a
+                                            natural,
+                                            luxurious finish.</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/remy-single-drawn.jpg"
+                                            alt="Remy Single Drawn Hair Wig">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 wig-card wow fadeInUp delay-0-4s">
-                               
-                                <div class="content">
-                                    <h5>Designer Women Hair Wig</h5>
-                                    <p class="wig-description">Chic and stylish wigs, perfect for special occasions or
-                                        everyday glam.</p>
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
+                                    <div class="content">
+                                        <h5>Curly Hair Women Wig</h5>
+                                        <p class="wig-description">A beautiful curly texture for a bouncy, voluminous look.
+                                        </p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/curly-women.jpg" alt="Curly Hair Women Wig">
+                                    </div>
                                 </div>
-                                <div class="image">
-                                    <img src="assets/images/wigs/designer-women.jpg" alt="Designer Women Hair Wig">
+                            </div>
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
+                                    <div class="content">
+                                        <h5>Dark Brown Hair Women Wig</h5>
+                                        <p class="wig-description">Rich dark brown shade, designed for a sleek and
+                                            sophisticated appearance.</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/dark-brown.jpg" alt="Dark Brown Hair Women Wig">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
+                                    <div class="content">
+                                        <h5>Designer Women Hair Wig</h5>
+                                        <p class="wig-description">Chic and stylish wigs, perfect for special occasions or
+                                            everyday glam.</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/designer-women.jpg" alt="Designer Women Hair Wig">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -497,400 +554,266 @@
 
                     <div class="tab-pane fade" id="bodyy">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image4.jpg" alt="Price">
-                                    </div>
+                            <!-- Card 1 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Body Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Ladies Lace Hair System</h5>
+                                        <p class="wig-description">
+                                            Crafted with delicate lace for a seamless, breathable fit. Designed to offer
+                                            natural-looking volume and effortless elegance.
+                                        </p>
                                     </div>
-                                    <span class="price">₹56</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/ladies-lace-system.jpg"
+                                            alt="Ladies Lace Hair System">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image5.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Beauty & Spa</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Mens Lace Hair System</h5>
+                                        <p class="wig-description">
+                                            Ultra-thin lace base for undetectable finish. Perfectly blends with the scalp
+                                            and
+                                            provides a secure, natural hairline.
+                                        </p>
                                     </div>
-                                    <span class="price">₹27</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image6.jpg" alt="Price">
+                                        <img src="assets/images/wigs/mens-lace-system.jpg" alt="Mens Lace Hair System">
                                     </div>
-                                    <div class="content">
-                                        <h5>Facial & Face Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹63</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image1.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Hair Cutting & Fitting</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹89</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image2.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Shaving & Facial</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹45</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image3.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Hair Color & Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹35</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image7.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Backbone Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹43</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image8.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Meditation & Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
+
                     <div class="tab-pane fade" id="washing">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image2.jpg" alt="Price">
-                                    </div>
+                            <!-- Card 1 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Shaving & Facial</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Body Wave Hair Extension</h5>
+                                        <p class="wig-description">
+                                            Luxurious body wave texture adds natural volume and bounce. Perfect for everyday
+                                            glam or special occasions.
+                                        </p>
                                     </div>
-                                    <span class="price">₹45</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/body-wave.jpg" alt="Body Wave Hair Extension">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image3.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Hair Color & Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Indian Wavy Hair Extension</h5>
+                                        <p class="wig-description">
+                                            Authentic Indian wavy hair with a silky, natural flow. Blends beautifully with
+                                            most
+                                            hair types.
+                                        </p>
                                     </div>
-                                    <span class="price">₹35</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/indian-wavy.jpg" alt="Indian Wavy Hair Extension">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image1.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Hair Cutting & Fitting</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Clip In Hair Extension</h5>
+                                        <p class="wig-description">
+                                            Easy to use and secure. Instantly add length and volume with no damage to your
+                                            natural hair.
+                                        </p>
                                     </div>
-                                    <span class="price">₹89</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/clip-in.jpg" alt="Clip In Hair Extension">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image4.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Body Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Micro Hair Extension</h5>
+                                        <p class="wig-description">
+                                            Lightweight and virtually invisible micro-ring extensions that provide a
+                                            seamless,
+                                            long-lasting transformation.
+                                        </p>
                                     </div>
-                                    <span class="price">₹56</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/micro.jpg" alt="Micro Hair Extension">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image5.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 5 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Beauty & Spa</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Indian Remy Hair Extension</h5>
+                                        <p class="wig-description">
+                                            Premium Remy hair sourced from India. Naturally aligned cuticles for durability,
+                                            softness, and shine.
+                                        </p>
                                     </div>
-                                    <span class="price">₹27</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image6.jpg" alt="Price">
+                                        <img src="assets/images/wigs/remy.jpg" alt="Indian Remy Hair Extension">
                                     </div>
-                                    <div class="content">
-                                        <h5>Facial & Face Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹63</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image7.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Backbone Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹43</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image8.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Meditation & Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="tab-pane fade" id="meditations">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image3.jpg" alt="Price">
-                                    </div>
+                            <!-- Card 1 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Hair Color & Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>C-22 Solvent Citrus Adhesive Remover</h5>
+                                        <p class="wig-description">
+                                            Effective and skin-safe citrus-based remover for tapes and glues. Quick, clean,
+                                            and
+                                            gentle on the skin.
+                                        </p>
                                     </div>
-                                    <span class="price">₹35</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/c22-solvent.jpg"
+                                            alt="C-22 Solvent Citrus Adhesive Remover">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image4.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Body Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Hair Soften Essence Capsules</h5>
+                                        <p class="wig-description">
+                                            Enriched with nourishing oils to keep your wig hair soft, manageable, and full
+                                            of
+                                            life.
+                                        </p>
                                     </div>
-                                    <span class="price">₹56</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/essence-capsules.jpg"
+                                            alt="Hair Soften Essence Capsules">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image5.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Beauty & Spa</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Hair Patch Clips</h5>
+                                        <p class="wig-description">
+                                            Durable metal clips with strong grip. Easy to sew and securely attach patches or
+                                            wigs to your hair.
+                                        </p>
                                     </div>
-                                    <span class="price">₹27</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/patch-clips.jpg" alt="Hair Patch Clips">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image6.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Facial & Face Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Vapon No Tape Silicone Bonding Adhesive</h5>
+                                        <p class="wig-description">
+                                            Clear, waterproof silicone adhesive that holds securely without the need for
+                                            tape.
+                                        </p>
                                     </div>
-                                    <span class="price">₹63</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/vapon.jpg"
+                                            alt="Vapon No Tape Silicone Bonding Adhesive">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image1.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 5 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Hair Cutting & Fitting</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Top Loc Knot Sealer</h5>
+                                        <p class="wig-description">
+                                            Extends the life of your lace wig by sealing knots and preventing hair fall.
+                                        </p>
                                     </div>
-                                    <span class="price">₹89</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/knot-sealer.jpg" alt="Top Loc Knot Sealer">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image2.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 6 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Shaving & Facial</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Red Tape Rolls</h5>
+                                        <p class="wig-description">
+                                            High-adhesion red tape rolls perfect for daily and extended wear. Comfortable
+                                            and
+                                            secure hold.
+                                        </p>
                                     </div>
-                                    <span class="price">₹45</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image7.jpg" alt="Price">
+                                        <img src="assets/images/wigs/red-tape.jpg" alt="Red Tape Rolls">
                                     </div>
-                                    <div class="content">
-                                        <h5>Backbone Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹43</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image8.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Meditation & Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹74</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="tab-pane fade" id="shaving">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image6.jpg" alt="Price">
-                                    </div>
+                        <div class="row" id="chemo-wig-cards">
+                            <!-- Card 1 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Facial & Face Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Ladies Chemotherapy Wigs</h5>
+                                        <p class="wig-description">
+                                            Soft, breathable wigs designed for comfort and style during hair loss.
+                                            Lightweight
+                                            and gentle on sensitive scalps.
+                                        </p>
                                     </div>
-                                    <span class="price">₹63</span>
+                                    <div class="image">
+                                        <img src="assets/images/wigs/ladies.jpg" alt="Ladies Chemotherapy Wigs">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image7.jpg" alt="Price">
-                                    </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-lg-6 ">
+                                <div class="wig-card wow fadeInUp delay-0-2s">
                                     <div class="content">
-                                        <h5>Backbone Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
+                                        <h5>Mens Chemotherapy Wigs</h5>
+                                        <p class="wig-description">
+                                            Natural-looking hair systems crafted specifically for men undergoing
+                                            chemotherapy.
+                                            Discreet and comfortable fit.
+                                        </p>
                                     </div>
-                                    <span class="price">₹43</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
                                     <div class="image">
-                                        <img src="assets/images/price/pp-image8.jpg" alt="Price">
+                                        <img src="assets/images/wigs/mens.jpg" alt="Mens Chemotherapy Wigs">
                                     </div>
-                                    <div class="content">
-                                        <h5>Meditation & Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹74</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image1.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Hair Cutting & Fitting</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹89</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image2.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Shaving & Facial</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹45</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image3.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Hair Color & Wash</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹35</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image4.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Body Massage</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹56</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="price-item">
-                                    <div class="image">
-                                        <img src="assets/images/price/pp-image5.jpg" alt="Price">
-                                    </div>
-                                    <div class="content">
-                                        <h5>Beauty & Spa</h5>
-                                        <span>Clean & simple 30-40 minutes</span>
-                                    </div>
-                                    <span class="price">₹27</span>
                                 </div>
                             </div>
                         </div>
@@ -899,10 +822,8 @@
             </div>
         </div>
     </section>
+    <!-- Our product  Area End -->
 
-
-
-    <!-- Pricing Plan Area End -->
     <!-- Gallery Area Start -->
     <section class="gallery-area rel z-1 pt-120 rpt-90 pb-100 rpb-70">
         <div class="container">
@@ -915,7 +836,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="section-header-btn text-lg-right mb-20 wow fadeInRight delay-0-2s">
-                        <a href="portfolio.php" class="theme-btn">explore more gallery <i
+                        <a href="{{ url('/gallary') }}" class="theme-btn">explore more gallery <i
                                 class="far fa-long-arrow-right"></i></a>
                     </div>
                 </div>

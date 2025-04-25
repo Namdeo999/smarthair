@@ -26,7 +26,7 @@
                 <div class="col-lg-6">
                     <div class="about-image-two rmb-75 wow fadeInLeft delay-0-2s">
                         <img src="assets/images/about/about-two.jpg" alt="About">
-                        <span class="big-letter">b</span>
+                        <span class="big-letter">S</span>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 align-self-center">
@@ -35,12 +35,11 @@
                             <img src="assets/images/logos/logo.png" alt="Logo" width="100px" style="object-fit: cover; background-color: black;">
                         </div>
                         <div class="section-title mb-25">
-                            <h2 class="title">Best barbers & hair cutting salon</h2>
+                            <h2 class="title">Smart Hair Beauty – Precision in Every Strand</h2>
                         </div>
-                        <p>At Smart Hair Beauty, we’re all about precision, style, and comfort. Our expert barbers and
-                            stylists are passionate about bringing out the best in every client — whether it’s a sharp new
-                            fade, a classic cut, or a fresh modern look. We focus on clean techniques, top-tier products,
-                            and a welcoming atmosphere where every visit feels like a treat. </p>
+                        <p>At Smart Hair Beauty, we go beyond the ordinary salon experience. Our skilled specialists bring precision, style, and care into every service — whether it's a seamless hair replacement, a natural-looking wig fitting, or a personalized hair patch solution.
+
+                            With an expert eye for detail and a passion for transformation, we use premium-quality products and clean techniques to deliver results that feel as good as they look. Step into a warm, welcoming space where confidence is restored, and every client leaves feeling their best. </p>
                         <a href="about.php" class="theme-btn style-two mt-30">more about us <i
                                 class="far fa-long-arrow-right"></i></a>
                     </div>

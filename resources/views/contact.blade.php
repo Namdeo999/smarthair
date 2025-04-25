@@ -27,7 +27,7 @@
                 <div class="contact-info-wrap rmb-55 wow fadeInLeft delay-0-2s animated" style="visibility: visible; animation-name: fadeInLeft;">
                     <div class="section-title mb-40">
                         <h2>Contact Us</h2>
-                        <p>Sit amet consectetur adipiscing elit eiusmod tempor incidi labore dolore magna</p>
+                        <p>We’re here to help! Whether you have questions about our hair replacement solutions, need a personalized consultation, or want to learn more about our services — feel free to reach out. Our team is ready to assist you with care, expertise, and quick response.</p>
                     </div>
                     <div class="contact-info-part p-40">
                         <div class="contact-info-item">
@@ -68,11 +68,11 @@
                         <div class="col-lg-11 col-md-10">
                             <div class="section-title mb-40">
                                 <h2>send us message</h2>
-                                <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse</p>
+                                <p>Have questions or need personalized advice? We're just a message away! Fill out the form below and our team will get back to you promptly. Whether it’s about our hair patching, replacement systems, or custom wigs — we’re here to assist you every step of the way.</p>
                             </div>
                         </div>
                     </div>
-                    <form id="contactForm" action="assets/php/form-process.php" name="contactForm" method="post">
+                    <form id="whatsappForm" >
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -125,8 +125,32 @@
     </div>
 </section>
 
-<div class="contact-page-map wow fadeInUp delay-0-2s animated" style="visibility: visible; animation-name: fadeInUp;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d136834.1519573059!2d-74.0154445224086!3d40.7260256534837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639991650837!5m2!1sen!2sbd" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+<script>
+    document.getElementById('whatsappForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        let name = document.getElementById('name').value;
+        let phone = document.getElementById('phone').value;
+        let email = document.getElementById('email').value;
+        let subject = document.getElementById('subject').value;
+        let messageText = document.getElementById('message').value;
+
+        // Replace with your WhatsApp number (without + or spaces)
+        let phoneNumber = "919754799646";
+
+        let fullMessage = `Hello Smart Hair Beauty,%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Subject:* ${subject}%0A*Message:* ${messageText}`;
+
+        // Open WhatsApp
+        window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`, '_blank');
+    });
+</script>
+
+
+<!-- Map Area Start -->
+<div class="contact-page-map wow fadeInUp delay-0-2s">
+    {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d136834.1519573059!2d-74.0154445224086!3d40.7260256534837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639991650837!5m2!1sen!2sbd" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"></iframe> --}}
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117336.18126155136!2d77.35347380127457!3d23.21557343379343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1744824089301!5m2!1sen!2sin"style="border:0; width: 100%;" allowfullscreen="" loading="lazy"></iframe>
 </div>
+<!-- Map Area End -->
 
 @endsection

@@ -1,4 +1,11 @@
 <div class="container">
+      <!-- resources/views/components/whatsapp-button.blade.php -->
+      @props(['phone' => '918889666653', 'message' => "Hello! I’d like to know more about your salon services. Could you share details and pricing?"])
+
+      <a href="https://wa.me/{{ $phone }}?text={{ urlencode($message) }}" class="whatsapp-float" target="_blank">
+          <img src="{{ asset('assets/images/whatsapp-icon.png') }}" alt="WhatsApp" class="whatsapp-icon">
+      </a>
+  
     <div class="footer-logo-newsletter mb-70">
         <div class="footer-logo wow fadeInLeft delay-0-2s">
             <a href="{{url('/home')  }}"><img src="assets/images/logos/logo.png" alt="Logo"></a>

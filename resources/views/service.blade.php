@@ -86,7 +86,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#bodyy">
                             <i class="flaticon-massage"></i>
-                            <span>Hair fall <br>treatment</span>
+                            <span>Hair patching  <br>products</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -187,8 +187,8 @@
                                 <div class="container">
                                   <div class="row my-4">
                                     <div class="col text-center">
-                                      <h2 class="fw-bold">Hair Fall Treatment in Bhopal</h2>
-                                      <p class="text-muted">Restore your natural hair and confidence with our expert care.</p>
+                                      <h2 class="fw-bold">Hair Patching Products</h2>
+                                      <p class="text-muted">Perfect Fit. Natural Look. Instant Transformation.</p>
                                     </div>
                                   </div>
                               
@@ -198,17 +198,17 @@
                                     </div>
                                     <div class="col-md-9">
                                       <p>
-                                        At <strong>Smart Hair Beauty</strong>, we provide expert, non-surgical hair fall treatments designed to address the root cause of hair loss. Our advanced therapies are suitable for both men and women, using techniques like scalp nourishment, herbal therapy, and modern technology to stimulate healthy hair growth.
+                                        Discover high-quality <strong>Hair Patching solutions </strong> at <strong>Smart Hair Beauty</strong>,designed for individuals facing partial or complete hair loss. Our ready-to-use hair patches and hair systems are made from premium synthetic or 100% human hair — offering a non-surgical, hassle-free option for both men and women.
                                       </p>
                                       <p>
-                                        Whether you're suffering from hair thinning, bald patches, or receding hairlines, we evaluate your condition and craft a personalized plan for maximum results — all at affordable prices.
+                                        Whether you’re dealing with bald spots, receding hairlines, or overall thinning, our patches are customized to blend naturally with your hair, providing unmatched comfort and a realistic look.
                                       </p>
                                       <ul class="list-unstyled">
-                                        <li class="gold-check"> Safe, non-invasive treatments with no side effects</li>
-                                        <li class="gold-check"> Dermatologist-approved and quality-tested products</li>
-                                        <li class="gold-check"> Results visible in just a few sessions</li>
-                                        <li class="gold-check"> Experienced specialists and friendly staff</li>
-                                        <li class="gold-check"> Consultation and after-care included</li>
+                                        <li class="gold-check">  Pre-designed and custom-made patches available</li>
+                                        <li class="gold-check">  Natural hairline and seamless blending</li>
+                                        <li class="gold-check">  Lightweight, breathable, and easy to maintain</li>
+                                        <li class="gold-check"> Multiple styles, lengths, and base types (lace, mono, skin)</li>
+                                        <li class="gold-check"> Expert fitting, cutting, and styling support available</li>
                                       </ul>
                                       {{-- <a href="#contact" class="btn btn-warning mt-3">Book a Free Hair Consultation</a> --}}
                                     </div>

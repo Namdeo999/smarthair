@@ -252,7 +252,7 @@
                             <i class="flaticon-hair-bonding"></i>
                         </div> --}}
                         <div class="content">
-                            <h3><a href="service-details.php">Hair Bonding Treatment</a></h3>
+                            <h3><a href="service-details.php">Hair Bonding </a></h3>
                             <p>Expert bonding techniques to create a seamless, natural-looking hairline.</p>
                             {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
@@ -276,8 +276,8 @@
                             <i class="flaticon-hair-fall"></i>
                         </div> --}}
                         <div class="content">
-                            <h3><a href="service-details.php">Hair Fall Treatment</a></h3>
-                            <p>Effective treatments designed to reduce hair fall and promote healthy growth.</p>
+                            <h3><a href="service-details.php">Hair Patching Products</a></h3>
+                            <p>Perfect Fit. Natural Look. Instant Transformation.</p>
                             {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
                         </div>
                     </div>
@@ -962,10 +962,10 @@
                     style="background-image: url(assets/images/contact/right.jpg);"></div>
             </div>
         </div>
-        <div class="contact-shapes">
+        {{-- <div class="contact-shapes">
             <img class="shape-one" src="assets/images/shapes/contact-one.png" alt="Shape">
             <img class="shape-two" src="assets/images/shapes/contact-two.png" alt="Shape">
-        </div>
+        </div> --}}
     </section>
     <!-- Contact Section End -->
     <!-- Team Area Start -->

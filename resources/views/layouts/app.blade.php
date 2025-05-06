@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="description" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data:;">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Smart Hair Beauty</title>
     <!-- Favicon -->
@@ -14,14 +16,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> --}}
+
+    <!-- Recommended official CDN from Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+
 
     <!-- Flaticon -->
     <link rel="stylesheet" href="{{asset('assets/css/flaticon.min.css')}}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('assets/css/fontawesome-5.14.0.min.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('assets/css/fontawesome-5.14.0.min.css')}}"> --}}
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap-4.5.3.min.css')}}">
     <!-- Magnific Popup -->

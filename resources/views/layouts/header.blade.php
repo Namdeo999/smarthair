@@ -45,7 +45,7 @@
         <!-- Menu Button -->
         <div class="menu-button d-none d-lg-block">
             <a href="{{ url('/contact') }}" class="theme-btn">appointment 
-                <i class="bi bi-arrow-right"></i></a>
+                <i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
 </div>

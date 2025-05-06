@@ -225,12 +225,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp delay-0-2s">
                         {{-- <div class="icon">
-                            <i class="flaticon-hair-patch"></i>
+                            <i class="flaticon-salon"></i>
                         </div> --}}
                         <div class="content">
                             <h3><a href="service-details.php">Hair Patch Solutions</a></h3>
                             <p>Non-surgical hair patching to restore volume and boost your confidence.</p>
-                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
+                            <a href="service-details.php" class="details-btn"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                         <div class="content">
                             <h3><a href="service-details.php">Hair Replacement</a></h3>
                             <p>Advanced hair replacement systems for permanent and natural-looking results.</p>
-                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
+                            <a href="service-details.php" class="details-btn"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                         <div class="content">
                             <h3><a href="service-details.php">Hair Bonding </a></h3>
                             <p>Expert bonding techniques to create a seamless, natural-looking hairline.</p>
-                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
+                            <a href="service-details.php" class="details-btn"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                         <div class="content">
                             <h3><a href="service-details.php">Hair Extension Services</a></h3>
                             <p>High-quality hair extensions to add volume, length, and style.</p>
-                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
+                            <a href="service-details.php" class="details-btn"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
                         <div class="content">
                             <h3><a href="service-details.php">Hair Patching Products</a></h3>
                             <p>Perfect Fit. Natural Look. Instant Transformation.</p>
-                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
+                            <a href="service-details.php" class="details-btn"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                         <div class="content">
                             <h3><a href="service-details.php">Hair Weaving</a></h3>
                             <p>Customized hair weaving techniques for a fuller, more natural look.</p>
-                            {{-- <a href="service-details.php" class="details-btn"><i class="far fa-long-arrow-right"></i></a> --}}
+                            <a href="service-details.php" class="details-btn"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

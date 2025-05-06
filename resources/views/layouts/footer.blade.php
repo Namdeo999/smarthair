@@ -78,11 +78,12 @@
                 <h5 class="footer-title">Contact Us</h5>
                 <ul>
                     <li>
-                        <i class="far fa-map-marker-alt"></i>
+                        <i class="fas fa-map-marker-alt"></i>
+
                         <span>E-4 /151 FLAT NO. 4 HARERAM COMPLEX, 10 No. market, E-4, Arera Colony, Bhopal, Madhya Pradesh 462016</span>
                     </li>
                     <li>
-                        <i class="far fa-phone"></i>
+                        <i class="fas fa-phone"></i>
                         <a href="calto:+918889666653">+91 8889666653 9009255060  </a>
                     </li>
                     <li>
